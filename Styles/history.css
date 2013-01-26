@@ -1,0 +1,93 @@
+/* CSS Document */
+/*nhommua*/
+.nhommua .cap-order .order-number,.nhommua .cap-order .order-name,.nhommua .cap-order .order-amo,.nhommua .cap-order .order-status,.nhommua .cap-order .order-share,.nhommua .cap-order .order-detail{padding:0;border-left:1px solid #0184c2; border-right:1px solid #7dd3fa;}
+.nhommua .cap-order{background:#00a8f6 url(http://www.mjgroup.com.vn/images_v3/bg-detail.png) repeat;}
+.nhommua .body-order{background-color: #E2E7E9;}
+.nhommua .cc-inner-paging a:hover,.nhommua .cc-inner-paging span{ color:#fff;background-color:#0095da;}
+.nhommua .cap-order .order-detail{ border-right:0 none;}
+.nhommua .body-order .order-detail a{color:#0095da;}
+
+/*zap*/
+.zap .cap-order .order-number,.zap .cap-order .order-name,.zap .cap-order .order-amo,.zap .cap-order .order-status,.zap .cap-order .order-share,.zap .cap-order .order-detail{padding:0;border-left:1px solid #f00329; border-right:1px solid #ccc;}
+.zap .cap-order{ background-color:#CB0424;}
+.zap .body-order{background-color: #fff;}
+.zap .cc-inner-paging a:hover,.zap .cc-inner-paging span{ color:#fff;background-color:#CB0424;}
+.zap .cap-order .order-detail{ border-right:0 none;}
+.zap .body-order .order-detail a{color:#CB0424;}
+.zap-style .history-logo li{ padding:0 1px;}
+/*kay*/
+.kay .cap-order .order-number,.kay .cap-order .order-name,.kay .cap-order .order-amo,.kay .cap-order .order-status,.kay .cap-order .order-share,.kay .cap-order .order-detail{padding:0;border-left:1px solid #555; border-right:1px solid #ccc;}
+.kay .cap-order{ background-color:#333;}
+.kay .body-order{background-color: #fff;}
+.kay .cc-inner-paging a:hover,.kay .cc-inner-paging span{ color:#fff;background-color:#333;}
+.kay .cap-order .order-detail{ border-right:0 none;}
+.kay .body-order .order-detail a{color:#CB0424;}
+
+/*--------------------------------------------------------------------------*/
+.history-logo{ overflow:hidden;clear:left;padding:7px 0 5px;}
+.history-logo h1 {color: #000000;font-family: arial;font-size: 13px;font-weight: 600;line-height: 40px;padding:0 0 0 10px;float:left;text-transform:none;}
+.history-logo ul{padding-left:7px; display:inline-block;}
+.history-logo li{ float:left; padding:0 4px;}
+.history-logo li a{ float:left; width:115px; height:33px;display:inline-block; padding:1px}
+.zap-style .history-logo li a{width:105px;}
+.history-logo a.active,.history-logo a:hover{ border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; border:1px solid #999; padding:0;}
+.history-logo li a i{ display:block; margin:auto; background-image:url(http://www.mjgroup.com.vn/images_v3/gr-logo.png); background-repeat:no-repeat; height:35px;}
+
+.history-logo .nhommua i{ background-position:0 0;width:92px;}
+.history-logo .zap i{ background-position:0 -45px;width:57px;}
+.history-logo .hungry i{ background-position:0 -90px;width:85px;}
+.history-logo .kay i{ background-position:0 -272px; width:49px;}
+
+.history-logo .nhommua:hover i,.history-logo .nhommua.active i{ background-position:0 -135px; }
+.history-logo .zap:hover i,.history-logo .zap.active i{ background-position:0 -180px; }
+.history-logo .hungry:hover i,.history-logo .hungry.active i{ background-position:0 -225px; }
+.history-logo .kay:hover i,.history-logo .kay.active i{ background-position:0 -323px; }
+/*--------------------------------------------------------------------------*/
+.history-inner{ overflow:hidden; clear:left;}
+.cap-order{ height:65px; width:100%;  position:relative;}
+.history-order .order-number,.history-order .order-name,.history-order .order-amo,.history-order .order-status,.history-order .order-share,.history-order .order-detail{ float:left; padding:10px 0; font-family:arial; font-size:13px; color:#333;}
+.cap-order .line-ver{position:absolute; top:0; display:block; height:100%; width:0; font-size:0; }
+.cap-order .line-hoz{position:absolute; left:0; bottom:0; display:block; height:0; width:100%; font-size:0; border-top:1px solid #0184c2;}
+.order-number{ width:10% !important;}
+.order-name{width:45% !important;}
+/*.order-name i{ padding-left:20px; width:auto; display:inline-block; padding-right:10px}*/
+.order-name i{display: inline-block;overflow: hidden;padding-left: 20px;padding-right: 10px;text-overflow: ellipsis;white-space: nowrap;width: 92%;}
+.order-amo{width:13% !important;}
+.order-status{width:16% !important;}
+/*.order-share{width:17%;}*/
+.order-detail{width:14% !important;}
+.cap-order .order-number,.cap-order .order-name,.cap-order .order-amo,.cap-order .order-status,.cap-order .order-share,.cap-order .order-detail{ color:#fff; font-family:arial; font-size:12px; line-height:65px; padding:0;border-left:1px solid #0184c2; border-right:1px solid #7dd3fa; font-weight:700;}
+.cap-order .order-number{text-align:center; border-left:0 none;}
+.cap-order .order-name{font-family:arial; text-transform:uppercase;}
+.cap-order .order-amo{text-align:center;}
+.cap-order .order-status{text-align:center}
+.cap-order .order-detail{text-align:center; color:#0095da; border-right:0 none;}
+.cap-order .order-share{text-align:center;}
+.body-order{ background-color:#e2e7e9; overflow:hidden;}
+
+.body-order .order-number{text-align:center; border:0 none; padding-right:1px;}
+.body-order .order-name{padding-left:1px; font-family:arial; font-size:14px; text-transform:uppercase;border:0 none; padding-right:1px;}
+.body-order .order-amo{text-align:center;border:0 none; padding:10px 1px;}
+.body-order .order-status{padding-left:1px;border:0 none; padding-right:1px; text-align:center;}
+.body-order .order-share{border:0 none; padding-left:1px; text-align:center;}
+.body-order .order-detail{text-align:center;border-right:0 none;border:0 none; padding-right:1px;}
+.body-order .order-detail a{color:#0095da;}
+.order-row{ width:100%; border-top:1px solid #ffffff; border-bottom:1px solid #999999; clear:left; float:left;}
+
+.cc-paging{ clear:left;width:100%; overflow:hidden;}
+.cc-inner-paging{float:right; padding:12px 0; margin-right:22px;}
+.cc-inner-paging a,.cc-inner-paging span{line-height:22px; font-size:14px; font-weight:700; color:#5e5e5e; padding:4px 7px; margin:0 1px;}
+.cc-inner-paging a:hover,.cc-inner-paging span{ color:#fff;background-color:#0095da;}
+.cc-inner-paging a.btn-prev{padding:4px;cursor:pointer;}
+.cc-inner-paging a.btn-next{padding:4px;cursor:pointer;}
+.cc-inner-paging a.btn-prev:hover,.cc-inner-paging a.btn-next:hover{ background:none; color:#5e5e5e;}
+.cc-inner-paging i{ display:inline-block;line-height:22px; padding:0 6px; font-size:12px; width:auto;}
+
+#divPaging i,#divPaging span,#divPaging a{float:left;}
+#divPaging i{margin-top:5px;}
+#dChuThich_MyVoucher{margin-bottom:10px;}
+
+#pagingComment_Kay a{display:inline-block;}
+#pagingComment_NM a{display:inline-block;}
+
+#divOrderDetailNM{z-index:6;}

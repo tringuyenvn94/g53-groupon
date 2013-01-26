@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'NhomMuaBold';
+    src: url('http://www.mjgroup.com.vn/font/nhom_mua-bold-webfont.eot');
+    src: url('http://www.mjgroup.com.vn/font/nhom_mua-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.nhommua.com/font/nhom_mua-bold-webfont.woff') format('woff'),
+         url('http://www.mjgroup.com.vn/font/nhom_mua-bold-webfont.ttf') format('truetype'),
+         url('http://www.mjgroup.com.vn/font/nhom_mua-bold-webfont.svg#NhomMuaBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'NhomMuaMedium';
+    src: url('http://www.mjgroup.com.vn/font/nhom_mua-md-webfont.eot');
+    src: url('http://www.mjgroup.com.vn/font/nhom_mua-md-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.nhommua.com/font/nhom_mua-md-webfont.woff') format('woff'),
+         url('http://www.mjgroup.com.vn/font/nhom_mua-md-webfont.ttf') format('truetype'),
+         url('http://www.mjgroup.com.vn/font/nhom_mua-md-webfont.svg#NhomMuaMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'NhomMuaSmBd';
+    src: url('http://www.mjgroup.com.vn/font/nhom_mua-sb-webfont.eot');
+    src: url('http://www.mjgroup.com.vn/font/nhom_mua-sb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.nhommua.com/font/nhom_mua-sb-webfont.woff') format('woff'),
+         url('http://www.mjgroup.com.vn/font/nhom_mua-sb-webfont.ttf') format('truetype'),
+         url('http://www.mjgroup.com.vn/font/nhom_mua-sb-webfont.svg#NhomMuaSmBd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'NhomMuaRegular';
+    src: url('http://www.mjgroup.com.vn/font/nhom_mua-rg-webfont.eot');
+    src: url('http://www.mjgroup.com.vn/font/nhom_mua-rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.nhommua.com/font/nhom_mua-rg-webfont.woff') format('woff'),
+         url('http://www.mjgroup.com.vn/font/nhom_mua-rg-webfont.ttf') format('truetype'),
+         url('http://www.mjgroup.com.vn/font/nhom_mua-rg-webfont.svg#NhomMuaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
