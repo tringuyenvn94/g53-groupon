@@ -1,0 +1,144 @@
+/*comment*/
+.write-comment {padding: 22px 0 0 0px;width: 100%;}.inner-comment{margin:auto;width:857px}
+.write-comment p {font-family: Arial;font-size: 25px;font-weight: normal;}
+.write-comment span {color: #F16D2C;display: inline-block;font-family: Arial;font-size: 15px;font-weight: normal;vertical-align: middle;}
+.textareaCM {background-color: #EDEDED;border: 1px solid #CCCCCC;box-shadow: 0 0 2px rgba(0, 0, 0, 0.4) inset;-moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.4) inset;-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.4) inset;-o-box-shadow: 0 0 2px rgba(0, 0, 0, 0.4) inset;color: white;height: 100px;width: 850px;color:black;padding-left:5px}
+.write-comment .send-comment,.write-sub-comment .send-comment {float: right;height: 50px;margin-top: 18px;width: 107px;background:url("http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/button/button.png");background-position: 0px -192px;}
+.write-comment .send-comment:hover,.write-sub-comment .send-comment:hover {background-position: -0px -256px;}.spanArea{width:100%;display:block;float:left}
+.write-comment .send-comment:active,.write-sub-comment .send-comment:active {background-position: -0px -322px;}
+.line-write-comment {clear: both;float: left;margin: 20px 0 10px 0;width: 100%;height:1px;display:block;background:#ccc}
+/*inner commnet*/
+.dList-comment{width:857px;clear:both;margin:auto}
+.avatar-user{width:50px;height:50px;border:1px solid #ccc;clear:left;display:block;float:left}.avatar-user img{padding:3px 0 0 3px}
+/* 21.6.12 */.comment-content{padding-bottom:20px;border-bottom:1px solid #f0f0f0;float:left;width:100%}
+.comment-content p.user-info {
+    color: #999999;
+    font-size: 12px;
+    line-height: 1.231;
+    padding-top: 0;
+}
+.user-info {
+    background: url("http://www.mjgroup.com.vn/images_v2/vip-icon.png");background-repeat:no-repeat;
+    display: block;float:left;height:40px;padding-left:35px;margin:5px 0 0 12px;padding-top:2px !important;font-size:13px
+}
+.user-info a{color:#20a2df;font-weight:bold}.user-info em{color:black;font-weight:bold;}.user-info{display:block;}
+.comment-content p.user-info span{font-size:13px;color:#666}
+p.vip-dif {
+    background-position: 0 -195px;
+}
+p.vip-sim {
+    background-position: 0 -146px;
+}
+p.vip-sil {
+    background-position: 0 -96px;
+}
+p.vip-gol {
+    background-position: 0 -5px;
+}
+p.vip-dia {
+    background-position: 0 -48px;
+}
+p.vip-clo {
+    background-position: 0 -235px;
+}.textareaCM{color:Black;padding:5px 0 0 5px}
+.inner-content-cm p{color:black;width:97% !important;padding:8px 0 30px 10px;line-height:18px;font-weight:normal;text-align:justify;font-size:13px}
+.inner-content-cm{width:100%;min-height:60px;background-color:White;border:1px solid #ccc;clear:both;position:relative;float:left;margin:10px 0 0 0;box-shadow:5px 5px 0 rgba(223, 223, 223, 0.75)}
+.inner-content-cm .total-comment{font-family:Arial;color:#0095da;position:absolute;bottom:2px;right:5px;font-size:17px;height:20px;width:auto;cursor:pointer}
+.sub-comment-content{float:left;margin-bottom:20px;padding-left:40px;width:817px}
+/*.inner-sub-content-cm {width:430px}*/.inner-sub-content-cm p{width:410px;text-align:justify}
+.textareaSubCM{width:425px;margin-top:5px}.write-sub-comment{width:440px;clear:both;float:left}
+/*.write-sub-comment .send-comment{background-position:-289px -777px;width:107px;height:50px;float:right;margin-top:18px;margin-right:7px}
+.write-sub-comment .send-comment:hover{background-position:-289px -841px;}.write-sub-comment .send-comment:active{background-position:-289px -907px;}*/
+.title-avatar {
+    background-image: url("http://www.mjgroup.com.vn/images_v2/ico-avatar.png");
+    background-repeat: no-repeat;
+    display: block;
+    height: 32px;
+    left: -20px;
+    position: absolute;
+    top: 38px;
+    width: 92px;
+}
+.profile-info{float:left;position:relative;margin-bottom:10px;}.sub-comment-content .profile-info{margin-bottom:10px}
+.sub-comment-content {
+    position: relative;
+}
+.dList-comment .doitac {
+    background-position: 0 0;
+}
+.dList-comment	 .nhommua {
+    background-position: -100px 0;
+}
+.dList-comment .lamdep, .dList-comment .anuong, .dList-comment .dulich, .dList-comment .sanpham, .dList-comment .muasam, .dList-comment .cream, .dList-comment .giaitri, .dList-comment .giaoduc, .dList-comment .nhakhoa {
+    height: 36px;
+    left: -8px;
+    top: 38px;
+    width: 68px;
+}
+.dList-comment .lamdep {
+    background-position: -200px 0;
+}
+.dList-comment .anuong {
+    background-position: -300px 0;
+}
+.dList-comment .dulich {
+    background-position: -400px 0;
+}
+.dList-comment .sanpham {
+    background-position: -500px 0;
+}
+.dList-comment .muasam {
+    background-position: -600px 0;
+}
+.dList-comment .cream {
+    background-position: 0 -40px;
+}
+.dList-comment .giaitri {
+    background-position: -100px -40px;
+}
+.dList-comment .giaoduc {
+    background-position: -200px -40px;
+}
+.dList-comment .nhakhoa {
+    background-position: -300px -40px;
+}.mod-descriptions{padding-bottom:0}
+.sub-comment-content .user-info span{font-size:12px;float:left;padding-top:4px}
+.comment-content .user-info span{font-size:12px !important;float:left;padding-top:4px;color:#666}
+.sub-comment-content p.user-info {
+    color: #999999;
+    font-size: 12px;
+    line-height: 1.231;
+    padding-top: 0;
+}
+
+/* paging comment*/
+.inner-paging-cmt{/*float:right; */padding:0 30px 15px 0;clear:both; display:block;float:right}
+
+.inner-paging-cmt a:hover,.inner-paging-cmt span{ color:#fff;background-color:#0095da;}
+.inner-paging-cmt a.btn-prev{ /*background:url(http://www.mjgroup.com.vn/images_v3/pastdeal.png) no-repeat -15px -178px;*/ padding:0px;cursor:pointer;}
+.inner-paging-cmt a.btn-next{ /*background:url(http://www.mjgroup.com.vn/images_v3/pastdeal.png) no-repeat 0 -178px;*/ padding:0px;cursor:pointer;}
+.inner-paging-cmt a.btn-prev:hover,.inner-paging-cmt a.btn-next:hover{ background:none; color:#5e5e5e;}
+.inner-paging-cmt i{ display:inline-block;/* float:left;*/ line-height:22px; padding:0 6px;}
+.sub-comment-content .subCM-content {margin-bottom:25px;float:left;clear:left;width:100%}.write-sub-comment{width:100%}
+.none-rank {background:none;padding-left:5px;}.write-sub-comment .textareaCM{padding:5px 0 0 7px;width:99%}
+.inner-paging-cmt a, .inner-paging-cmt span {color: #5E5E5E;font-size: 14px;font-weight: 700;line-height: 22px;margin: 0 1px;padding: 0px 7px;float:left}
+.inner-paging-cmt a:hover, .inner-paging-cmt span {background-color: #0095DA;color: #FFFFFF;}.titleCM-detail{text-align:left}.titleCM-detail h3{width:90%;padding-left:15px}
+.summaryDeal{width:270px;margin:auto}.titleSummary{font-size:18px;color:#333;overflow:hidden;padding:15px 0;height:22px;text-overflow:ellipsis;white-space:nowrap}
+.summaryDeal a h1 img{width:268px;height:166px;border:1px solid #ccc}.summaryDeal a {display:block;margin-bottom:15px}.summaryDes{font-size:13px;line-height:18px;max-height:162px;overflow:hidden;}
+.newComment .loadMore a{margin-right:15px !important;margin-top:5px}.descriptions-inner{width:917px !important}
+
+@media all and (min-width: 978px) and (max-width: 1218px) 
+{
+	.mod-descriptions .descriptions-inner{width: 683px !important}	
+	.inner-comment,.dList-comment{width:643px;}.textareaCM{width:99%}
+	.sub-comment-content{width:603px;}.write-sub-comment .textareaCM{padding:5px 0 0 7px}
+}
+@media all and (min-width: 0px) and (max-width: 978px) 
+{
+	.mod-descriptions .descriptions-inner{width: 510px !important}.titleCM-detail h3{padding-left:10px}
+	.inner-comment,.dList-comment{width:470px;}.textareaCM{width:99%}.inner-content-cm p{width:96% !important}
+	.sub-comment-content{width:429px;}.write-sub-comment .textareaCM{padding:5px 0 0 5px}
+	.summaryDeal{width:215px;}.summaryDeal a h1 img{width:213px;height:133px;border:1px solid #ccc}
+}
+.comment-content .user-info{width:300px;}
+.sub-comment-content .user-info{width:250px;}

@@ -1,0 +1,117 @@
+﻿.cc-shadow{position:fixed;top:0;left:0;width:100%; height:100%; background:#000000; opacity:0.7;filter:alpha(opacity=70);z-index:10;}
+.ccart-popup{position:absolute;background:#ffffff;padding:17px;z-index:15;width:405px;cursor:pointer;
+	box-shadow:15px 15px 15px rgba(0,0,0,0.2);-moz-box-shadow:15px 15px 15px rgba(0,0,0,0.2);-webkit-box-shadow:15px 15px 15px rgba(0,0,0,0.2);}
+.ccart-popup .ccart-pop-close{display:block; background:url(http://www.mjgroup.com.vn/images_v3/ico-ccart.png) no-repeat; width:15px; height:15px; position:absolute; top:8px; right:8px;cursor:pointer;}
+.ccart-popup  p{font-size:13px; color:#000000;line-height:20px;}
+.ccart-popup .cc-pop-name{text-transform:uppercase; font-weight:700;}
+.ccart-popup .cc-pop-img{padding:12px 0;}
+.ccart-popup .cc-pop-order{height:20px;position:relative;padding:10px 0;position:relative; z-index:2;}
+.ccart-popup .cc-pop-line{display:block; width:100%; font-size:0; border-top:1px solid #cccccc;position:absolute; left:0;z-index:0}
+.ccart-popup .cc-pop-line.top{top:0;}
+.ccart-popup .cc-pop-line.bottom{bottom:0;}
+.ccart-popup .cc-pop-order .cc-pop-order-txt{font-size:13px; color:#000000; line-height:20px;display:block; float:left;margin-right:23px;}
+.ccart-popup .cc-pop-btn-customize{clear:left;text-align:center;padding-top:17px;}
+
+.ccart-popup.cc-kay{width:578px;}
+.ccart-popup.cc-kay img{width:280px;}
+.ccart-popup.cc-kay .cc-pop-img{width:280px; margin-right:18px;float:left; padding-bottom:0;}
+.ccart-popup.cc-kay .cc-pop-content{width:280px; float:left;padding-top:130px;}
+.ccart-popup.cc-kay .cc-pop-content .cc-pop-color{overflow:hidden;padding-bottom:11px;}
+.ccart-popup.cc-kay .cc-pop-content .cc-pop-color span{display:block; float:left;font-size:13px; color:#000000;line-height:26px;width:72px;}
+.ccart-popup.cc-kay .cc-pop-content .cc-pop-color ul{display:block; float:left;width:208px;}
+.ccart-popup.cc-kay .cc-pop-content .cc-pop-color ul li{float:left;}
+.ccart-popup.cc-kay .cc-pop-content .cc-pop-color img{width:22px; height:22px;}
+.ccart-popup.cc-kay .cc-pop-content .cc-pop-color ul li a{padding:1px; border:1px solid; border-color:transparent;margin-right:4px;display:block;cursor:pointer;}
+.ccart-popup.cc-kay .cc-pop-content .cc-pop-color ul li a:hover,.ccart-popup.cc-kay .cc-pop-content .cc-pop-color ul li a.active{border-color:#000;}
+
+.ccart-popup.cc-kay .cc-pop-content .cc-pop-size{overflow:hidden;}
+.ccart-popup.cc-kay .cc-pop-content .cc-pop-size span{display:block; float:left;font-size:13px; color:#000000;line-height:26px;width:72px;}
+.ccart-popup.cc-kay .cc-pop-content .cc-pop-size ul{display:block; float:left;width:208px;}
+.ccart-popup.cc-kay .cc-pop-content .cc-pop-size ul li{float:left;}
+.ccart-popup.cc-kay .cc-pop-content .cc-pop-size ul li a{display:block; width:50px; height:18px; background:#fff;font-size:11px;color:#000000;text-align:center; cursor:pointer;line-height:18px; border:1px solid #808080; margin-right:5px;}
+.ccart-popup.cc-kay .cc-pop-content .cc-pop-size ul li a:hover,.ccart-popup.cc-kay .cc-pop-content .cc-pop-size ul li a.active{background:#666666;}
+.ccart-popup.cc-kay .cc-pop-content .cc-pop-size ul li a.invisible, .ccart-popup.cc-kay .cc-pop-content .cc-pop-size ul li a.invisible:hover{cursor:default;border-color:#d9d9d9; color:#b2b2b2;background:#fff;}
+
+.ccart-popup.cc-select-option{width:705px;}
+.ccart-popup.cc-select-option .cc-pop-listpro{display:block; float:left; margin-bottom:20px; position:relative; top:0;left:0;}
+.ccart-popup.cc-select-option .cc-pop-listpro .cc-pop-pro{display:block; float:left;width:221px;position:relative;padding-right:20px;margin-top:20px;}
+.ccart-popup.cc-select-option .cc-pop-pro-img{padding:1px; border:1px solid #cccccc;position:relative;}
+.ccart-popup.cc-select-option .cc-pop-pro-color{font-size:15px; color:#000000; font-family:NhomMuaMedium,arial;line-height:25px;}
+.ccart-popup.cc-select-option .cc-pop-pro-info{padding-top:15px;}
+.ccart-popup.cc-select-option .cc-pop-order{float:right;padding:0;}
+.ccart-popup.cc-select-option .cc-line-ver{position:absolute; top:0; right:10px; font-size:0; height:100%; border-left:1px solid #cccccc;}
+.ccart-popup.cc-select-option .cc-pop-pro-price{width:118px; height:31px; text-align:center; background:#0095da;position:absolute;bottom:-1px; right:-1px;}
+.ccart-popup.cc-select-option .cc-pop-pro-price span{display:inline-block;font-size:18px; color:#ffffff;font-family:NhomMuaMedium,arial;line-height:31px;position:relative;}
+.ccart-popup.cc-select-option .cc-pop-pro-price span i{display:inline-block; font-size:12px;position:absolute; right:-5px; top:2px;line-height:16px;text-decoration:underline;}
+
+.ccart-popup.cc-select-option .cc-pop-btn-customize{position:relative;}
+
+/*Check box*/
+.ccart-popup .cc-pop-check{display:block; background:url(http://www.mjgroup.com.vn/images_v3/ico-ccart.png) no-repeat 0 -35px; width:15px; height:15px;float:left;cursor:pointer;}
+.ccart-popup .cc-pop-check.cc-pop-checked{background-position:0 -55px;}
+
+/*Drop downlist*/
+.ccart-popup .cc-select{position:relative;width:46px;height:19px;float:left;z-index:2;}
+.ccart-popup .cc-select .cc-selected{position:relative; background:#fff; border:1px solid #e0e0e0;cursor:pointer;}
+.ccart-popup .cc-select .cc-selected span{display:block;line-height:17px;font-size:13px; color:#000000; font-weight:700;padding-right:17px; text-align:center;}
+.ccart-popup .cc-select .cc-selected i{display:block; background:url(http://www.mjgroup.com.vn/images_v3/ico-ccart.png) no-repeat 0 -15px;width:15px; height:15px; position:absolute; top:1px; right:1px; cursor:pointer;}
+.ccart-popup .cc-select .cc-list-select{position:absolute; top:18px; left:0; background:#fff;border:1px solid #e0e0e0;width:44px;max-height:65px; overflow-y:auto;}
+.ccart-popup .cc-select .cc-list-select ul li{cursor:pointer;font-size:line-height:17px;font-size:13px; color:#000000;padding-left:10px;text-align:left; }
+.ccart-popup .cc-select .cc-list-select ul li:hover{background:#e0e0e0; font-weight:700;}
+
+/*Btn*/
+.cc-pop-btn{background:url(http://www.mjgroup.com.vn/images_v3/cc-btn-lar.png) no-repeat; text-align:center;cursor:pointer;display:inline-block;}
+.cc-pop-btn img{width:405px;}
+.cc-pop-btn .cc-pop-btn-txt{display:inline-block; background:url(http://www.mjgroup.com.vn/images_v3/cc-btn-txt-lar.png) no-repeat;cursor:pointer;}
+.ccart-popup.cc-zap .cc-pop-btn{background-position:0 0; width:237px; height:63px;}
+.ccart-popup.cc-zap .cc-pop-btn:hover{background-position:0 -83px;}
+.ccart-popup.cc-zap .cc-pop-btn:active{background-position:0 -166px;}
+.ccart-popup.cc-zap .cc-pop-btn-txt{background-position:0 0; width:126px; height:33px; margin-top:16px;}
+.ccart-popup.cc-zap .cc-pop-btn:active .cc-pop-btn-txt{margin-top:19px;}
+
+.ccart-popup.cc-nhommua .cc-pop-btn{background-position:0 -234px; width:237px; height:63px;}
+.ccart-popup.cc-nhommua .cc-pop-btn:hover{background-position:0 -317px;}
+.ccart-popup.cc-nhommua .cc-pop-btn:active{background-position:0 -400px;}
+.ccart-popup.cc-nhommua .cc-pop-btn-txt{background-position:0 -37px; width:126px; height:33px; margin-top:16px;}
+.ccart-popup.cc-nhommua .cc-pop-btn:active .cc-pop-btn-txt{margin-top:19px;}
+
+.ccart-popup.cc-kay .cc-pop-btn{background-position:0 -510px; width:158px; height:48px;}
+.ccart-popup.cc-kay .cc-pop-btn:hover{background-position:0 -588px;}
+.ccart-popup.cc-kay .cc-pop-btn:active{background-position:0 -666px;}
+.ccart-popup.cc-kay .cc-pop-btn-txt{background-position:0 -75px; width:72px; height:15px; margin-top:16px;}
+
+.pf-form{padding:12px 30px 0;}
+.pf-form .row{padding-bottom:10px;position:relative;}
+.pf-form .row .row-spec{overflow:hidden;}
+.pf-form .row .row-spec span{display:inline-block;}
+.pf-form .row .row-spec .row-home{float:left;position:relative;}
+.pf-form .row .row-spec .row-home .input{width:80px;}
+.pf-form .row .row-spec .row-road{float:right;position:relative;}
+.pf-form .row .row-spec .row-road .input{width:156px;}
+.pf-form .row .input{border:none;width:320px; height:18px; background:#5c5c5c;color:#c5c5c5;padding:6px 11px;font-size:14px; line-height:18px;*margin-top:-1px;border:1px solid #5c5c5c;outline:none;}
+.pf-form .row .textarea{border:none;width:267px; height:72px; background:#5c5c5c;color:#c5c5c5;padding:6px 11px;font-size:14px; line-height:18px;*margin-top:-1px;border:1px solid #5c5c5c;outline:none;font-family:arial;}
+.pf-form .row .select{border:none;width:290px; height:30px; background:#5c5c5c;color:#c5c5c5;padding:6px;font-size:14px; line-height:18px;*margin-top:-1px;border:1px solid #5c5c5c;outline:none;*height:auto;}
+.pf-form .row  .focus{background:#ffffb2;border:1px solid #bfbfbf;color:#a6a6a6;
+	box-shadow:0 0 5px rgba(0,0,0,0.75);-moz-box-shadow:0 0 5px rgba(0,0,0,0.75);-webkit-box-shadow:0 0 5px rgba(0,0,0,0.75);}
+.pf-form .row .placeholder{display:block;position:absolute;top:7px; left:12px;color:#c5c5c5;font-size:14px; line-height:18px;}
+.pf-form .error{font-size:12px; color:#cb0424;padding-top:5px; display:block;}
+.pf-form .require{font-size:13px; color:#000000;font-style:italic;padding:6px 0 2px;display:block;line-height:17px;}
+.ccart-popup.cc-zap .cc-pop-btn-txt.btn-dongy{ background:url(http://www.mjgroup.com.vn/images_v3/btn-dongy.png) no-repeat; width:96px; height:32px; margin-top:11px;}
+
+/*popup slide show -Deal Option*/
+.ccart-popup .cc-pop-slideshow{position:relative;}
+.ccart-popup .cc-pop-padding{display:block; position:absolute; top:65px; background:url(http://www.mjgroup.com.vn/images_v3/desc-paging.png) no-repeat; width:51px; height:51px;z-index:10;cursor:pointer;}
+.ccart-popup .cc-pop-padding.cc-pop-pre{background-position:0 0;left:-15px;}
+.ccart-popup .cc-pop-padding.cc-pop-pre.active{background-position:0 -55px;}
+.ccart-popup .cc-pop-padding.cc-pop-next{background-position:0 -110px;right:-15px;}
+.ccart-popup .cc-pop-padding.cc-pop-next.active{background-position:0 -165px;}
+.ccart-popup .cc-pop-selectbox{font-size:13px;text-align:center;width:48px; font-weight:700;border:none; border:1px solid #E0E0E0;}
+.thumb_container{width:712px; height:230px; overflow:hidden;}
+
+.ccart-popup .p-bg{background:rgba(0,0,0,0.05);}
+.ccart-popup .p-title{height:40px;}
+.ccart-popup .p-title h1{font-size:18px; color:#000000;text-transform:uppercase;font-family:NhomMuaSmBd,arial;padding-left:17px; line-height:40px;}
+.ccart-popup .p-container{border-top:1px solid #cccccc;margin-top:1px;padding-bottom:25px;}
+.ccart-popup .p-form{padding:38px 30px 0;}
+.ccart-popup .row{padding-bottom:10px;position:relative;}
+.ccart-popup .row .message{font:bold 14px/20px arial; color:#C40000;}

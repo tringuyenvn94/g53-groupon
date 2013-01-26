@@ -1,0 +1,149 @@
+﻿/*Shadow*/
+.shadow{width:100%; height:100%;position:fixed; top:0; left:0;background:#000;opacity:0.85;filter:alpha(opacity=85);z-index:11;}
+/*Popup*/
+.popup{position:absolute;border:1px solid #8c8c8c;width:351px; background:#fff;z-index:15;}
+.popup .p-close{position:absolute; top:11px; right:11px; display:block; background:url(http://www.mjgroup.com.vn/images_v3/close-popup.png) no-repeat; width:19px; height:19px;cursor:pointer;}
+.popup .p-bg{background:rgba(0,0,0,0.05);}
+.popup .p-title{height:40px;}
+.popup .p-title h1{font-size:18px; color:#000000;text-transform:uppercase;font-family:NhomMuaSmBd,arial;padding-left:17px; line-height:40px;}
+.popup .p-container{border-top:1px solid #cccccc;margin-top:1px;padding-bottom:25px;}
+.popup .p-form{padding:38px 30px 0;}
+.popup .row{padding-bottom:10px;position:relative;}
+.popup .row .input{border:none;width:267px; height:18px; background:#5c5c5c;color:#c5c5c5;padding:6px 11px;font-size:14px; line-height:18px;*margin-top:-1px;border:1px solid #5c5c5c;outline:none;float:none;}
+.popup .row  .focus{background:#ffffb2;border:1px solid #bfbfbf;color:#a6a6a6;
+	box-shadow:0 0 5px rgba(0,0,0,0.75);-moz-box-shadow:0 0 5px rgba(0,0,0,0.75);-webkit-box-shadow:0 0 5px rgba(0,0,0,0.75);}
+.popup .row .placeholder{display:block;position:absolute;top:7px; left:12px;color:#c5c5c5;font-size:14px; line-height:18px;}
+.popup .error{font-size:12px; color:#ff0000;padding-top:10px; display:block;}
+#spnCaptcha {float:left;}
+.popup .require{font-size:13px; color:#000000;font-style:italic;padding:6px 0 2px;display:block;line-height:17px;}
+.popup .p-txt{display:block;font-size:14px; color:#5c5c5c;padding-top:3px;}
+.popup .capcha{overflow:hidden;padding-top:7px;}
+.popup .capcha .capcha-img{float:left;}
+.popup .capcha .fresh-btn{cursor:pointer;display:block; background:url(http://www.mjgroup.com.vn/images_v3/ico-hf.png) no-repeat -88px -123px;width:24px; height:24px;float:left;margin:8px 7px 0;}
+.popup .capcha .capcha-txt{float:left;width:128px;}
+.popup .capcha .capcha-txt .input{width:106px;}
+.popup .check{display:inline-block; background:url(http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/ico-hf.png) no-repeat left -164px; height:19px; padding:0 0 0 29px; color:#5c5c5c; font-weight:700; font-size:14px; line-height:19px;cursor:pointer;}
+.popup .check.checked{background-position:left -190px;}
+.popup .p-link{font-size:14px; color:#c40000;font-weight:700;cursor:pointer;}
+.popup .p-link:hover{text-decoration:underline;}
+.popup  .p-btn{padding:10px 0 17px;}
+.popup .move-page{font-size:13px; color:#000000;}
+.popup .move-page .p-link{font-size:13px;}
+.popup .p-footer{height:50px;text-align:center;padding-top:29px;}
+.popup .p-footer .login-face{display:inline-block; background:url(http://www.mjgroup.com.vn/images_v3/login-face.png) no-repeat; width:161px; height:22px;}
+.popup .forget-pass{position:absolute;top:1px; right:8px; cursor:pointer;padding-top:5px;background:#5c5c5c;}
+.popup .forget-pass .fp-ico{position:relative; display:block; background:url(http://www.mjgroup.com.vn/images_v3/ico-hf.png) no-repeat -29px -211px; width:21px; height:21px;}
+.popup .forget-pass .sub-popup{position:absolute; top:-39px;left:-79px; height:32px; line-height:32px;width:164px; background:#ffffff;border:1px solid #b7b7b7;text-align:center;display:none;
+	box-shadow:0 3px 3px rgba(0,0,0,0.4);-moz-box-shadow:0 3px 3px rgba(0,0,0,0.4);-webkit-box-shadow:0 3px 3px rgba(0,0,0,0.4);}
+
+.popup .forget-pass .sub-popup a{font-size:13px;}
+.popup .forget-pass .sub-popup .sub-popup-arrow{position:absolute;bottom:-8px; left:83px;background:url(http://www.mjgroup.com.vn/images_v3/ico-hf.png) no-repeat -59px -211px; width:12px; height:8px;display:block; }
+.popup .forget-pass:hover .sub-popup{display:block;}
+.popup .row .message{font:bold 14px/20px arial; color:#C40000;}
+.popup  .line{clear:none;float:none; position:relative; width:351px; display:block; font-size:0; border-top:1px solid #cccccc;left:-30px; margin-bottom:17px;}
+
+/*don hang*/
+.order{ padding-top:16px;}
+.order.no-data{ text-align:center; height:250px;}
+.order.no-data p{ font-family:NhomMuaMedium; font-size:20px; margin-top:102px;}
+
+.order table td{ font-size:13px; color:#4a4a4a; line-height:20px;} 
+.order table thead td{ font-weight:700;}
+.order table td{ padding:12px 0;/**/}
+.order table td{ border-bottom:1px solid #ccc;}
+.order table tbody tr:hover{ background-color:#f2f2f2; cursor:pointer;}
+.order td a{color:#4A4A4A}
+.pastdeal-content-h{ background-color:#f2f2f2; overflow:hidden;/* border-right:1px solid #bababa;*/}
+.select-tag{border:1px solid #A6A8AA;background:#fff;width:60px;height:27px;color:#333;padding:2px;line-height: 29px;font-size: 18px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.20);-moz-box-shadow: 0 2px 2px rgba(0,0,0,0.20);-webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.20);
+}
+.profile p.note{ clear:left; font-size:13px; color:#4a4a4a; line-height:20px;padding-right:25px;padding-top:6px; display:block;}
+.popup.detail-order{ width:728px;}
+.popup.detail-order .p-form{ overflow:hidden;}
+.p-left{ float:left; min-width:288px; max-width:49%; overflow:hidden;}
+
+.p-left p{ font-size:14px; color:#414141; line-height:20px;}
+.p-left p span,.p-left p time{ padding:0 3px;}
+.p-left p font,.p-left p b{ line-height:20px;}
+.popup.detail-order .note{ clear:left; font-size:13px; color:#4a4a4a; line-height:20px;padding-top:6px; display:block; font-style:italic;}
+.p-order{ clear:left;}
+.p-order table{border:none; border-bottom:1px dotted #ccc;font-size:16px; color:#000000;font-weight:700;}
+.p-order th{padding:8px 0;}
+.p-order td{border-top:1px dotted #ccc;padding:20px 0;}
+.p-order .o-title{width:230px;}
+.p-order .o-quantity{width:87px;text-align:center;overflow:hidden;}
+.p-order .o-price{width:85px;text-align:center;}
+.p-order .o-total{width:101px;text-align:center;}
+.p-order .o-calculate{width:23px; text-align:center;border:none;}
+.p-order .o-quantity span{padding:0;display:block; float:left;line-height:22px;}
+.p-order .o-quantity-btn{background:url(http://www.mjgroup.com.vn/images_v3/btn-quan.png) no-repeat; width:22px; height:22px;}
+.p-order .o-quantity-btn.plus{background-position:0 0;cursor:pointer;margin-left:6px;}
+.p-order .o-quantity-btn.minus{background-position:-26px 0;cursor:pointer;margin-left:4px;}
+.p-order .o-quantity-btn.disable{opacity:0.5;filter:alpha(opacity=50);cursor:default;}
+.popup.detail-order .line{ border-bottom:1px solid #ccc; display:block; width:100%; font-size:0; border-top:0 none; margin-top:20px; left:0;}
+.popup.detail-order .help-inner p{ float:left; width:auto;}
+.popup.detail-order .help-inner p.through{ border-top:1px solid #ccc; height:0; font-size:0;top:16px; position:relative; padding:0 26px;}
+.popup.detail-order .help-inner p.through b{ line-height:33px; float:left; padding:0 6px; background-color:#fff; font-size:13px; font-weight:400; position:relative; top:-19px;}
+.popup.detail-order .help-inner p a{display:inline-block;color:#cb0424; font-weight:400; font-size:13px;}
+.cont-cmt h6 a{ font-family:arial;font-size: 16px;line-height: 32px;color: #333;font-weight: 700;}
+
+
+/*Popup detail order Zap*/
+
+.export-order{padding:24px 0;}
+.o-form{padding:17px 0 0 29px;}
+.profile-form{border:1px solid #bababa;width:351px; background:#fff;margin-bottom:8px;
+	box-shadow:8px 8px 0 #dedede;-moz-box-shadow:8px 8px 0 #dedede;-webkit-box-shadow:8px 8px 0 #dedede;}
+.profile-form .p-container{margin-bottom:0; border-bottom:none;}
+.p-delivery{padding-top:24px;}
+.p-delivery .p-delivery-form {padding: 0 0 4px 56px;}
+.p-delivery .p-delivery-title{margin-bottom:18px;}
+
+.p-delivery .p-delivery-title span{display:inline-block; vertical-align:middle;}
+.p-delivery .p-delivery-title .bullet{background:url(http://www.mjgroup.com.vn/images_v3/ico-payment.png) no-repeat 0 -15px; width:19px; height:19px;margin:0 17px;}
+.p-delivery .p-delivery-title .bullet.bulleted{background-position: -32px -15px;}
+.p-delivery .p-delivery-title .text{background:#000;padding:10px 0 10px 12px;}
+.p-delivery .p-delivery-title .ico-txt{background:url(http://www.mjgroup.com.vn/images_v3/ico-payment.png) no-repeat -65px -15px; width:15px; height:17px;}
+.p-delivery .home-delivery,.p-delivery .office-delivery{padding-top:14px;}
+.p-delivery .home-delivery .p-delivery-title .ico-txt{background-position:-65px -15px;}
+.p-delivery .office-delivery .p-delivery-title .ico-txt{background-position:-84px -15px;}
+.p-delivery .p-delivery-title .data-txt{font-size:15px; color:#ffffff;line-height:19px;padding:0 22px 0 12px;}
+.p-delivery .p-delivery-title .data-txt span{display:block;}
+.p-delivery .p-delivery-title .data-txt .address{color:#808080;font-size:13px;}
+.p-delivery .p-delivery-title .view-map{background:url(http://www.mjgroup.com.vn/images_v3/ico-payment.png) no-repeat -19px 0; height:13px; line-height:13px;font-size:11px; color:#fff; line-height:13px;text-decoration:underline;padding-left:13px;margin-left:18px;}
+.p-delivery .p-delivery-title .view-map:hover{text-decoration:none;}
+.p-delivery .d-title{display:block;position:relative; height:35px;background:#b90000;text-transform:uppercase; color:#fff;font-size:18px;font-family:NhomMuaSmBd,arial;text-shadow:-1px -1px #260000;padding-left:14px;line-height:35px;
+                box-shadow:0 3px 3px rgba(0,0,0,0.3);-moz-box-shadow:0 3px 3px rgba(0,0,0,0.3);-webkit-box-shadow:0 3px 3px rgba(0,0,0,0.3);}
+.p-delivery .d-title .d-title-ico{position:absolute;bottom:-9px;left:32px;display:block; background:url(http://www.mjgroup.com.vn/images_v3/ico-payment.png) no-repeat; width:9px; height:9px;}
+.p-delivery .row .row-spec {overflow: hidden;}
+.p-delivery .row .row-spec span{display:inline-block;}
+.p-delivery .row .row-spec .row-home{float:left;position:relative;}
+.p-delivery .row .row-spec .row-home .input{width:80px;}
+.p-delivery .row .row-spec .row-road{float:right;position:relative;}
+.p-delivery .row .row-spec .row-road .input{width:156px;}
+.p-delivery .row .textarea{border:none;width:267px; height:72px; background:#5c5c5c;color:#c5c5c5;padding:6px 11px;font-size:14px; line-height:18px;margin-top:-1px;border:1px solid #5c5c5c;outline:none;font-family:arial;}
+.p-delivery .row .select{border:none;width:290px; height:30px; background:#5c5c5c;color:#c5c5c5;padding:6px;font-size:14px; line-height:18px;/*margin-top:-1px;border:1px solid #5c5c5c;outline:none;*/height:auto;}
+.p-delivery .row .focus{background:#ffffb2;border:1px solid #bfbfbf;color:#a6a6a6;box-shadow:0 0 5px rgba(0,0,0,0.75);-moz-box-shadow:0 0 5px rgba(0,0,0,0.75);-webkit-box-shadow:0 0 5px rgba(0,0,0,0.75);}
+	
+.profile-btn{text-align:center; padding:30px 0;}
+
+.detail-order .btn{ float:left;}
+.mes_error{float:left; width:100%; text-align:center; margin:20px 0 0 0; font:bold 12px arial; color:#CB0424;}
+/*Button*/
+.profile-btn .button{display:inline-block;cursor:pointer; vertical-align:top; background:url(http://www.mjgroup.com.vn/images_v3/myvoucher-btn.png) no-repeat -243px 0;width:237px; height:63px;margin:0 5px;}
+.profile-btn .button:hover{background-position:-243px -83px;}
+.profile-btn .button:active{background-position:-243px -166px;}
+
+.profile-btn .button.chapnhan{background-position:-243px -238px;}
+.profile-btn .button.chapnhan:hover{background-position:-243px -321px;}
+.profile-btn .button.chapnhan:active{background-position:-243px -404px;}
+
+
+.p-left_NM{ float:left; min-width:346px;max-width:52%;margin-left:0;margin-right:0px;overflow:hidden;}
+.p-left_NM h6{ font-family:NhomMuaMedium; font-size:20px; color:#080808; line-height:22px;}
+.p-left_NM p{ font-size:15px; color:#080808; margin-top:6px;}
+.p-left_NM p span{ display:inline-block; width:86px; color:#666;float:left;}
+.p-left_NM p font,.p-left p b{font-family:NhomMuaMedium;}
+.p-left_NM p b{font-size:20px;}
+.detail-order .title-avatar{left:-21px;}
+.huydonhang,.chapnhan{float:none !important}
