@@ -1,0 +1,386 @@
+/* CSS Document */
+.profile-nick{padding:10px 0 0 26px; height:84px; background-color:#fff; background:none;  background-repeat:no-repeat; border-radius:0 10px 0 0; -moz-border-radius:0 10px 0 0; -webkit-border-radius:0 10px 0 0;}
+.profile-nick.golden{background-image:url(http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/bg-profile-nick.png); background-position: right 0;}
+.profile-nick.vipsil{background-image:url(http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/bg-profile-nick-bac.png); background-position: right 0;}
+.profile-nick.diamond{background-image:url(http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/kimcuong.png); background-position: right 0;}
+.profile-nick img{ border:1px solid #999; float:left; margin:5px 14px 0 0;}
+.profile-nick-inner{ position:relative;}
+.profile-nick .icon{ float:left;width:37px; height:100%;}
+.profile-nick .icon i{width:28px; height:40px; display:block; background-image:url(http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/vip-icon.png); background-repeat:no-repeat;}
+.profile-nick.golden .icon i{ background-position:0 0;}
+.profile-nick-inner p{ font-family:arial; font-size:12px; color:#666; line-height:18px;}
+.profile-nick-inner .nick{ font-family:Arial; font-size:20px; color:#0095da; line-height:25px; position:relative;}
+.profile-nick-inner p .left{ display:inline-block; width:87px;}
+.profile-tabs {
+	border-left: 0 solid #999;
+	border-right: 0 solid #999;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	height:49px; 
+    	width:100%;
+	background-image: -moz-linear-gradient(center bottom,#f0f0f0 10%,#ffffff 100%);
+	}
+.profile-tabs-inner{ overflow:hidden; padding:9px 0 0 22px;}
+.profile-tabs-inner li{ float:left;font-family:Arial; font-size:17px; margin-left:-1px;}
+.profile-tabs-inner li a{position:relative; float:left; height:29px;}
+.profile-tabs-inner li .hover{ clear:left;display:none; height:27px;position:absolute;top:0;left:0; border:1px solid #4c8915; background-color:#389f2f; color:#fff; line-height:27px;
+border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;
+box-shadow:-1px 1px 5px rgba(0,0,0,0.4) inset; -moz-box-shadow:-1px 1px 5px rgba(0,0,0,0.4) inset; -webkit-box-shadow:-1px 1px 5px rgba(0,0,0,0.4) inset;
+padding:0 15px; z-index:1;
+}
+.profile-tabs-inner li a:hover .hover,.profile-tabs-inner li a.active .hover{ display:block;}
+.profile-tabs-inner li .text{ color:#333; text-shadow:1px 1px 1px #fff; line-height:27px;padding:0 16px; float:left;}
+.profile-tabs-inner li .text i{ display:inline-block; height:22px; width:0; font-size:0; border-left:1px solid #ccc; position:absolute; right:0; top:4px;}
+.profile-textarea{ border:1px solid #ccc; background-color:#ededed; box-shadow:-1px 1px 5px rgba(0,0,0,0.4) inset; -moz-box-shadow:-1px 1px 5px rgba(0,0,0,0.4) inset; -webkit-box-shadow:-1px 1px 5px rgba(0,0,0,0.4) inset;
+width:746px; height:47px; padding:6px; margin-top:6px;}
+.button.gui .bg-1,.button.gui .bg-2{ width:95px; height:35px;}
+/*.button.gui i{ background:url(http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/btn/gui.png) no-repeat; width:33px; height:23px; margin-top:6px;}*/
+/*-----------------------------------------------------------------*/
+.profile-history{}
+.profile-history h6{ font-family:arial; font-size:17px; color:#000; line-height:49px; padding-left:28px; font-weight:600;}
+.profile-order{}
+.cap-order{ height:65px; width:100%; background:#00a8f6 url(http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/bg-detail.png) repeat; position:relative;}
+.profile-order .order-number,.profile-order .order-name,.profile-order .order-amo,.profile-order .order-status,.profile-order .order-share,.profile-order .order-detail{ float:left; padding:10px 0; font-family:arial; font-size:13px; color:#333;}
+.cap-order .line-ver{position:absolute; top:0; display:block; height:100%; width:0; font-size:0; }
+.cap-order .line-hoz{position:absolute; left:0; bottom:0; display:block; height:0; width:100%; font-size:0; border-top:1px solid #0184c2;}
+.cap-order .order-number,.cap-order .order-name,.cap-order .order-amo,.cap-order .order-status,.cap-order .order-share,.cap-order .order-detail{ color:#ffffff; font-family:Arial; font-size:19px; line-height:65px; padding:0;border-left:1px solid #0184c2; border-right:1px solid #7dd3fa;}
+.cap-order .order-number{ width:67px; text-align:center; border-left:0 none;}
+.cap-order .order-name{ width:272px; padding-left:25px; font-family:Arial; font-size:16px; text-transform:uppercase;}
+.cap-order .order-amo{ width:78px; text-align:center;}
+.cap-order .order-status{ width:120px; padding-left:20px;}
+.cap-order .order-share{ width:147px;}
+.cap-order .order-detail{ width:81px; text-align:center; color:#0095da; border-right:0 none;}
+.cap-order .order-share{ text-align:center;}
+.body-order{ background-color:#e2e7e9; overflow:hidden;}
+.body-order .order-number{ width:68px; text-align:center; border:0 none;}
+.body-order .order-name{ width:274px; padding-left:25px; font-family:Arial; font-size:16px; text-transform:uppercase;border:0 none;}
+.body-order .order-amo{ width:80px; text-align:center;border:0 none;}
+.body-order .order-status{ width:122px; padding-left:20px;border:0 none;}
+.body-order .order-share{ width:129px;border:0 none; padding-left:20px;}
+.body-order .order-detail{ width:82px; text-align:center;  border-right:0 none;border:0 none;}
+.body-order .order-detail a{color:#0095da;}
+.order-row{ width:100%; border-top:1px solid #ffffff; border-bottom:1px solid #999999; clear:left; float:left;}
+.paging{ clear:left;width:100%; overflow:hidden;}
+.inner-paging-cmt{float:right; padding:12px 0; margin-right:22px;}
+.inner-paging-cmt a,.inner-paging-cmt span{line-height:22px; font-size:14px; font-weight:700; color:#5e5e5e; padding:4px 7px; margin:0 1px;}
+.inner-paging-cmt a:hover,.inner-paging-cmt span{ color:#fff;background-color:#0095da;}
+.inner-paging-cmt a.btn-prev{padding:4px;cursor:pointer;}
+.inner-paging-cmt a.btn-next{padding:4px;cursor:pointer;}
+.inner-paging-cmt a.btn-prev:hover,.inner-paging-cmt a.btn-next:hover{ background:none; color:#5e5e5e;}
+.inner-paging-cmt i{ display:inline-block;line-height:22px; padding:0 6px;}
+.history-note{ margin:32px 22px 0 26px; border-top:1px solid #999999; overflow:hidden;}
+.history-note p{ font-size:13px; font-style:italic; color:#333; line-height:20px; margin-top:6px;}
+/*------------------------------------*/
+.profile-locate-inner{ margin:0 22px 0 22px;}
+.profile-locate h6{color:#000000;font-size:17px;font-weight:600;line-height: 49px;font-family:Arial;}
+.note-locate{font-size: 15px;color:#0067BE;font-family:Arial;}
+.box-guide-location{overflow: hidden;margin: 20px 0;background: url(http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/ico-guide-location.gif) no-repeat;padding-left: 66px;min-height: 64px;padding-top: 6px;}
+.box-guide-location p{font-size: 15px;color:#3C3C3C;text-align: left;line-height: 20px;}
+.map-location{width: 770px;height: 531px;border: 1px solid #A2A2A2;position: relative;}
+.btns-location{overflow: hidden;padding-bottom: 54px;zoom: 1; text-align:center; margin-top:12px;}
+.btns-location .button{ margin:0 11px;}
+.button.huybo .bg-1,.button.huybo .bg-2{ width:152px;}
+/*.button.huybo i{ background:url(http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/btn/huybo.png) no-repeat; width:92px; height:32px; margin-top:5px;}*/
+.button.themdiachi .bg-1,.button.themdiachi .bg-2{ width:272px;}
+/*.button.themdiachi i{ background:url(http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/btn/themdiachi.png) no-repeat; width:217px; height:36px;margin-top:5px;}*/
+.button.capnhat .bg-1,.button.capnhat .bg-2{ width:174px;}
+/*.button.capnhat i{ background:url(http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/btn/capnhat.png) no-repeat; width:125px; height:36px;margin-top:5px;}*/
+/*------------------------------------*/
+.profile-cmt-inner{ margin:0 22px 0 22px;}
+.profile-cmt h6{color:#000000;font-size:17px;font-weight:600;line-height: 49px;font-family:Arial;}
+.list-comments{margin: 0 auto;clear:left;overflow:hidden;}
+.comment-content-right{float: right;margin-top: 20px;width: 54px;position:relative;}
+.comment-content-right img{border: 1px solid #c2c3c3;}
+.detail-order .title-avatar{ display:block; width:92px; height:32px; background-image:url(http://www.mjgroup.com.vn/images_v2/ico-avatar.png); background-repeat:no-repeat; position:absolute; left:-20px; top:38px}
+.comment-content-right .lamdep,.comment-content-right .anuong,.comment-content-right .dulich,.comment-content-right .sanpham,.comment-content-right .muasam,.comment-content-right .cream,.comment-content-right .giaitri,.comment-content-right .giaoduc,.comment-content-right .nhakhoa{left:-7px;top:44px;height:36px;width:68px;}
+.comment-content-right .doitac{ background-position:0 0;}
+.comment-content-right .nhommua{ background-position:-100px 0;}
+.comment-content-right .lamdep{background-position:-200px 0;}
+.comment-content-right .anuong{background-position:-300px 0;}
+.comment-content-right .dulich{background-position:-400px 0;}
+.comment-content-right .sanpham{background-position:-500px 0;}
+.comment-content-right .muasam{background-position:-600px 0;}
+.comment-content-right .cream{background-position:0 -40px;}
+.comment-content-right .giaitri{background-position:-100px -40px;}
+.comment-content-right .giaoduc{background-position:-200px -40px;}
+.comment-content-right .nhakhoa{background-position:-300px -40px;}
+.comment-content{clear:left;/*overflow:hidden;*/}/*15.06*/
+.comment-content .tail{ background: url(http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/arrow-cross.png) no-repeat 0 0;display: block;float: right;font-size: 0; height: 9px;margin: 29px 0 0 13px;width: 5px;}
+.comment-content .detail-deal{float: right;position: relative;width: 603px;background:#FFFFFF;clear: both;margin-top: 20px; overflow: hidden; padding: 7px 15px 15px 15px;
+border-radius: 10px;-moz-border-radius:10px;-webkit-border-radius:10px;
+}
+.short-size .detail-deal{width: 531px;}
+.comment-content p{color: #6A6A6A;font-size: 13px;line-height: 18px;}
+.comment-content p.user-info {font-size: 12px;color: #393838;padding-top: 5px;line-height:1.231;}
+.user-info i{ color:#00850C; font-weight:700;}
+.user-info span{ display:block; font-size:11px; line-height:1;}
+.user-info{display: block;padding-left: 35px;background: url(http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/vip-icon.png) no-repeat;}
+p.vip-dif {background-position: 0 -191px;}
+p.vip-sim {background-position: 0 -146px;}
+p.vip-sil {background-position: 0 -96px;}
+p.vip-gol {background-position: 0 -5px;}
+p.vip-dia {background-position: 0 -48px;}
+p.vip-clo {background-position: 0 -235px;}
+.comment-content a {color: #0F5F92;font-size: 12px;font-weight: 700;line-height: 18px;}
+.comment-content .title{font-size:15px;display:inline-block;padding-bottom:4px;}
+/*.comment-content .total-comment {background: none;filter:none;background-color: #cacdcf;width: auto;height: 24px;position: absolute;bottom: 0;right: 0;left:auto;padding:3px 12px 0 12px;text-align: center;cursor:pointer;
+	border-radius: 10px 0 10px 0;-moz-border-radius:10px 0 10px 0;-webkit-border-radius:10px 0 10px 0;
+}*/
+.comment-content span.icon-comment {background-position: 0 -24px; height: 20px;width: 27px;}
+.total-comment span.icon-comment {background: url(http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/comment-icon.png) no-repeat 0 0;height: 24px;width: 29px;}
+.total-comment span.num-comment {padding: 5px 0 0 2px;}
+.total-comment span.num-comment a{ color:#333;}
+.total-comment span {color: #333333;display: inline-block;font-size: 13px;font-style: italic;font-weight: 700; vertical-align: top;}
+.comment-content-alignright {margin-top: 20px;text-align: right;}
+.comment-content-alignright .textareaCP {
+    border: 0 none;color: #6A6A6A;font-size: 16px;font-weight: 400;height: 44px;padding: 7px 0 8px 13px;width: 548px;
+    border-radius: 10px;-moz-border-radius:10px;-webkit-border-radius:10px;
+}
+.comment-content-alignright p {padding: 10px 0 0; text-align: right;}
+.bg-paging-comment{overflow:hidden; width:100%; height:49px;margin-top:10px; border-top:1px solid #999;
+	background-image: -moz-linear-gradient(center bottom,#f0f0f0 10%,#ffffff 100%);
+	}
+.paging-comment{padding:10px;float:right;
+	border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.10, #ededed),color-stop(1.00, #dcdcdc));
+	background-image: -moz-linear-gradient(center bottom,#ededed 10%,#dcdcdc 100%);
+	background: -o-linear-gradient(top, rgb(220,220,220), rgb(237,237,237));
+	box-shadow:1px 1px 4px #ccc;-moz-box-shadow:1px 1px 4px #ccc;-webkit-box-shadow:1px 1px 4px #ccc;
+}
+.paging-comment a, .paging-comment span{float:left;color:#434446;font-weight:700;font-size:13px;height:18px;padding:6px 0;margin-left:6px;}
+.btn-paging, .paging-comment span{
+	width:112px;background-color:#bcbfc6;text-align:center;border-right:1px solid #8f9091;border-bottom:1px solid #8f9091;
+	border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;
+}
+.paging-comment span{width:33px;}
+.paging-comment a{padding:6px 10px;}
+/*--------------------------------------------------------------------*/
+.profile-more{}
+.profile-more h6{ font-family:Arial; font-size:20px; color:#000; line-height:49px;font-weight:600;}
+.profile-more-inner{ margin:0 22px 0 22px; padding-bottom:40px;}
+.morenmore_cont{font-size: 13px;overflow: hidden;margin-bottom: 40px;}
+.morenmore_cont p{color:#333;line-height:18px;padding-top:6px;}
+.morenmore_cont strong{display: inline-block;padding-top: 6px;}
+.morenmore_cont img{ margin:auto;}
+/*.button.huythamgia i{ background:url(http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/btn/huythamgia.png) no-repeat; width:176px; height:30px; margin-top:7px;}*/
+/*--------------------------------------------------------------------*/
+.personal-info{padding:10px 49px 10px 26px; /*overflow:hidden;*/}
+.profile-sub-tabs{border-bottom:1px solid #999999;}
+.profile-sub-tabs ul{display:block;overflow:hidden;position:relative; bottom:-1px;left:0;}
+.profile-sub-tabs ul li{display:block; float:left;}
+.profile-sub-tabs ul li a{display:inline-block; float:left; height:30px;border-style:solid; border-width:1px 1px 0;border-color:transparent; font-size:15px; color:#333333;font-family:Arial,arial;line-height:30px; position:relative; padding:0 15px;
+	border-radius:4px 4px 0 0;-moz-border-radius:4px 4px 0 0;-webkit-border-radius:4px 4px 0 0;}
+.profile-sub-tabs ul li a:hover,.profile-sub-tabs ul li a.active{
+    border-color:#999999;
+	background-image: -ms-linear-gradient(top, #f0f0f0 10%,#ffffff 100%);
+    }
+.profile-sub-tabs ul li a i{/* position:relative; bottom:5px; margin:auto;*/position:absolute; left:45%; bottom:0;background:url(http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/ico-profile.png) no-repeat; width:9px;height:5px; display:none;}
+.profile-sub-tabs ul li a:hover i,.profile-sub-tabs ul li a.active i{display:block;}
+/*Upload image*/
+.pi-upload{padding:20px 0 0;overflow:hidden;}
+.pi-upload .bg-1,.pi-upload .bg-2{height:33px; width:112px;}
+.pi-upload .pro-input-des{display:block; float:left; padding-top:10px; margin-right:23px;}
+.button.upload i{background:url(http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/btn/upload.png) no-repeat; width:77px; height:18px; margin-top:8px;}
+.pi-upload .pro-form{overflow:hidden;}
+/*Info*/
+.pi-info{clear:left;float:left;border-top:1px solid #999999;width:100%;}
+/*Change pass*/
+.pi-changepass{clear:left;float:left; border-top:1px solid #999999;padding-top:10px;margin-top:10px;width:100%;}
+.pi-changepass h1{font-size:17px; color:#000000; line-height:30px; font-weight:600;}
+/*Button*/
+.pi-btn{clear:left; float:left; width:100%;border-top:1px solid #999999;padding:20px 0 10px 0;margin-top:10px;}
+.pi-btn .button{ margin:0 6px;}
+.button.save{ margin-left:122px;}
+.pi-btn .bg-1,.pi-btn .bg-2{width:157px;}
+/*.button.save i{background: url(http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/btn/luu.png) no-repeat; width:49px; height:25px; margin-top:11px;}
+.button.remove i{background: url(http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/btn/huy.png) no-repeat; width:53px; height:30px; margin-top:7px;}*/
+/*Form*/
+.pro-form{clear:left; float:left;}.descriptions{background:#fff}
+.pro-row{clear:left; float:left;width:100%;padding:10px 0;}
+.pro-row label{font-size:13px; color:#666666;line-height:43px;}
+.pro-row .pi-info-nochange{font-size:15px; color:#666666; font-weight:700;line-height:43px;display:block;}
+.pro-row .input{border:none; background:none; border:1px solid #999999; height:20px; line-height:20px; padding:8px 12px;width:334px;font-size:15px; color:#000000; font-weight:700;
+	border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;
+	box-shadow:0 1px 2px rgba(0,0,0,0.2) inset;-moz-box-shadow:0 1px 2px rgba(0,0,0,0.2) inset;-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.2) inset;}
+.pro-row .textarea {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #999999;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 700;
+    height: 102px;
+    line-height: 20px;
+    padding: 8px 12px;
+    width: 334px;
+}.mod-descriptions{background:#fff}
+.pro-row .input-file{font-size:15px; color:#000000;}
+.pro-row .col-left{display:block;width:122px; float:left;}
+.pro-row .col-left label{line-height:38px;}
+.pro-row .col-right{width:520px;float:left;}
+.pro-btn{float:left;}.module{margin-top:0px !important;background:#fff !important;box-shadow:none !important}
+.upload {background-position: -529px -240px;float: right;height: 50px;margin-right: 5px;width: 108px;}.upload:hover {background-position: -529px -304px;}.upload:active {background-position: -529px -370px;}
+/*Select box*/
+.select{position:relative;}
+.selected{position:relative;width:358px;height:36px;border:1px solid #999999;
+	border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;
+	box-shadow:0 1px 2px rgba(0,0,0,0.2) inset;-moz-box-shadow:0 1px 2px rgba(0,0,0,0.2) inset;-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.2) inset;}
+.select.spec{float:left;margin-right:19px;}	
+.select.short .selected{width:78px;}
+.select.medium .selected{width:101px;}
+.selected span{display:block;padding:0 36px 0 14px;font-size:15px; color:#000000; font-weight:700; line-height:36px; height: 36px;overflow: hidden;}
+.selected i{display:block; cursor:pointer; position:absolute; top:3px; right:3px;background:url(http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/ico-profile.png) no-repeat 0 -10px; width:30px; height:30px;}
+.list-select{background:#ffffff; position:absolute; top:39px; left:0; width:358px;border:1px solid #999999;max-height:180px; overflow-y:auto;}
+.select.short .list-select{width:78px;}
+.select.medium .list-select{width:101px;}
+.list-select ul li{font-size:15px; color:#000000;line-height:30px; padding: 0 14px; cursor:pointer;}
+.list-select ul li:hover{background:#f0f0f0;font-weight:700;}
+/*Check box*/
+.check{display:inline-block; background:url(http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/sex.gif) no-repeat left 0; height:28px; cursor:pointer;padding:7px 0 0 41px;}
+.check i{display:inline-block; background:url(http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/sex.gif) no-repeat 0 -100px; width:21px; height:21px; vertical-align:top;}
+.check.checked i{background-position:-25px -100px;}
+.check.men{background-position: left 0;}
+.check.women{background-position: left -50px;}
+.pro-row-note{ font-family:arial; font-size:13px; color:#333; font-style:italic;}
+.pro-row-note b{ color:#0095da;}
+.list-img-radio{overflow: hidden;/*width: 678px;*/}
+.img_radio{overflow: hidden;width: 750px;position: relative;margin: 5px 0 29px 8px;}
+.img_radio li{width: 54px;margin: 27px 21px 0 0;float: left;overflow: hidden;}
+.img_radio img{border: 1px solid #CCC9C9;}
+.img_radio input{margin: 9px auto 0;display: block;}
+.close-popup{right:5px;top:5px;cursor:pointer;}
+
+/*Profile-comment*/
+/*.inner-content-cm,.sub-comment-content{width:770px}.inner-sub-content-cm{width:720px}*/
+.inner-content-cm p{width:750px}.inner-sub-content-cm p{width:700px}.sub-comment-content{width:730px}
+.inner-content-cm{min-height:75px;margin-bottom:10px}.comment-content .profile-info{margin-bottom:10px}
+.mod-list .paging {
+    clear: left;
+    width: 100%;
+}
+.inner-paging-cmt {
+    display: block;
+    padding: 15px 0;
+}
+.inner-paging-cmt a, .inner-paging-cmt span {
+    color: #5E5E5E;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    margin: 0 1px;
+    padding: 4px 7px;
+}
+.inner-paging-cmt a:hover, .inner-paging-cmt span {
+    background-color: #0095DA;
+    color: #FFFFFF;
+}
+.inner-paging-cmt a.btn-prev {
+    cursor: pointer;
+    padding: 4px;
+}
+.inner-paging-cmt a.btn-next {
+    cursor: pointer;
+    padding: 4px;
+}
+.inner-paging-cmt a.btn-prev:hover, .inner-paging-cmt a.btn-next:hover {
+    background: none repeat scroll 0 0 transparent;
+    color: #5E5E5E;
+}
+.inner-paging-cmt i {
+    display: inline-block;
+    line-height: 22px;
+    padding: 0 6px;
+}
+.select-tag {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #A6A8AA;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    color: #333333;
+    font-size: 18px;
+    height: 27px;
+    line-height: 29px;
+    padding: 2px 2px 2px 10px;
+    width: 60px;
+}
+.mod-list {
+    width: 820px;
+}
+.inner-paging-cmt a {
+    color: black;
+}
+.sub-comment-content{overflow:visible}
+/*more and more -- khoa*/
+.huythamgia{background-position:-315px -1008px;width:238px;height:63px;margin:auto}
+.huythamgia:hover{background-position:-315px -1088px;width:238px;height:63px;}
+.huythamgia:active{background-position:-315px -1168px;width:238px;height:63px;}
+.profile-nick.normal .icon i{
+    background-position: 0 -195px;
+}
+.profile-nick.goldstar .icon i{
+    background-position: 0 -146px;
+}
+.profile-nick.vipsil .icon i {
+    background-position: 0 -96px;
+}
+.profile-nick.diamond .icon i{
+    background-position: 0 -48px;
+}
+.profile-nick.silstar .icon i{
+    background-position: 0 -235px;
+}
+/* 26.6.12 */.pi-info{border:none;position:relative;z-index:3;}.pop-up{float:left}
+.thamgia{ background-position: -315px -1496px; width: 238px; height: 63px; margin: auto;}
+.thamgia:hover{background-position:-315px -1576px;width:238px;height:63px;}
+.thamgia:active{background-position:-315px -1656px;width:238px;height:63px;}
+/* 20.6.12 */
+.nhommua_HD {background:none;padding-left:10px;}
+.mod-my-comment .write-sub-comment .send-comment{margin-right:0}
+.comment-content .total-comment {background:none;font-weight:normal}
+/* 21.6.12 */
+.col-right{position:relative}
+.mod-voucher{width:1218px}.pi-changepass h1 span{height:21px !important;margin-top:2px}
+.button {
+    background-image: url("http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/button.png");
+    display: block;
+}
+.save {background-position: -647px -518px;float: left;height: 63px;width: 168px;}.save:hover {background-position: -647px -601px;}.save:active {background-position: -647px -684px;}
+.cancel {background-position: -474px -518px;float: left;height: 63px;width: 168px;}.cancel:hover {background-position: -474px -601px;}.cancel:active {background-position: -474px -684px;}
+.mod-my-comment{width:96%}.user-info{height:40px !important}.dList-comment{margin:20px 0 0 20px !important}
+.sub-comment-content{padding-left:35px;width:97%}.write-sub-comment .textareaCM{width:99%;padding-left:11px}
+.pro-form,.map-location{width:748px}
+.newlocaition {background-position: -314px -1260px;float: left;height: 63px;margin-left: 115px;margin-right: 15px;width: 298px;}.newlocaition:hover {background-position: -314px -1340px;}.newlocaition:active {background-position: -314px -1420px;}
+.getlocation {background-position: -755px -1009px;float: right;height: 50px;margin-right: 5px;width: 108px;}.getlocation:hover {background-position: -755px -1073px;}.getlocation:active {background-position: -755px -1139px;}
+.update {background-position: -627px -1260px;float: left;height: 63px;width: 168px;}.update:hover {background-position: -627px -1343px;}.update:active {background-position: -627px -1426px;}
+/*tab booking 04/10*/
+.profile-tabs-inner .booking {margin-left: 10px}.profile-tabs-inner .noteTravel i {line-height: 20px;}
+.profile-tabs-inner .booking .text {padding: 0 15px 0 28px !important;}.profile-tabs-inner .booking:hover .text {padding: 0 15px 0 28px !important;}
+.profile-tabs-inner .booking .hover {padding:0 15px 0 26px !important;}.travel-list{border:1px solid #ccc;height:227px !important}.status-booking{width:300px !important}.mod-booking{height:230px !important;margin-bottom:15px !important}
+.profile-tabs-inner .booking a u {background-image: url("http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/ico.png");background-position: 0 -400px;background-repeat: no-repeat;display: block;height: 20px;left: 4px;position: absolute;top: 5px;width: 21px;z-index: 3;}
+.profile-tabs-inner {overflow: inherit !important;}.profile-tabs-inner .booking a:hover u, .profile-tabs-inner .booking a.active u {background-position: -40px -400px;display: block;}
+.noteTravel {background-color: transparent;background-image: url("http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/ico.png");background-position: -157px -362px !important;color: white;display: block;font-style: normal;height: 24px;left: -10px;position: absolute;text-align: center;top: -10px;width: 23px;z-index: 3;}
+.noteTravel i {color: white;display: block;font-family: Arial;font-size: 15px;font-weight: bold;line-height: 10px;margin-left: -1px;padding-top: 1px;}
+.travel-list, .travel-list section {float: left;height: 225px;position: relative;width: 388px;}.travel-none {margin-right: 0 !important;}.travel-list{margin-right:20px !important}
+.travel-list section a h1 img {height: 147px;width: 386px;}.travel-list .amo-deal {height: 223px;width: 386px;}.travel-list section .offer-detail .info-offer {height: 78px;}
+.travel-list section .offer-detail {height: 104px;top: -98px;}.travel-list section .imgTravel {height: 147px;width: 386px;}.travel-list .infoTravel {height: 41px;}.travel-list section .offer-detail {top: -103px;}
+/*end 04/10*/
+@media screen and (min-width: 978px) and (max-width: 1218px)
+{
+	.mod-voucher{width:978px}.sub-comment-content{width:96%}
+}
+
+@media screen and (min-width: 0px) and (max-width: 978px)
+{
+	.mod-voucher{width:748px}.sub-comment-content{width:94%}.comment-content{width:99%}.payment_content .li-form-PM{width:694px !important;margin-left:0 !important}
+	.write-sub-comment .textareaCM {padding-left: 14px;width: 98%;}.pro-form, .map-location{width:695px}
+}
+
+.newlocaition.btn-savenew {background-position: -311px -1726px;float: left;height: 63px;width: 298px;}
+.newlocaition.btn-savenew:hover {background-position: -311px -1806px;}
+.newlocaition.btn-savenew:active {background-position: -311px -1886px;}
+
+#paggingComments p{max-width:200px !important;margin:auto !important;}
+#pError{margin-bottom:5px !important;}
+
+#liBooking{display:none;}

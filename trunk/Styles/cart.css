@@ -1,0 +1,138 @@
+/*update*/
+.cooperation-cart{background:#ffffff;}
+/*Title*/
+.ccart-title{overflow:hidden;position:relative;}
+.ccart-title .ccart-title-left{float:left;}
+.ccart-title .ccart-title-right{float:right;}
+.ccart-title .ccart-title-right span{display:inline-block; vertical-align:middle;}
+.ccart-continue{display:inline-block; background:url("http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4//button/button.png") no-repeat left 0; height:50px;width:167px; line-height:20px; margin-right:5px;color:#808080;background-position:-520px -232px}/*02/10*/
+.ccart-continue:hover{background-position:-520px -312px}/*02/10*/.ccart-continue:active{background-position:-520px -391px}/*02/10*/
+.ccart-btn{background:url(http://www.mjgroup.com.vn/images_v3/cc-btn.png) no-repeat; text-align:center;cursor:pointer;display:block;}
+.ccart-btn .cc-btn-txt{display:inline-block; background:url(http://www.mjgroup.com.vn/images_v3/cc-btn-txt.png) no-repeat;cursor:pointer;}
+
+/*Content*/
+.ccart-content{padding:15px 0;}
+.ccart-content-detail{border:none;width:100%;}
+.cooperation-cart.cc-kay .ccart-content-detail .ccart-content-detail-border{border-right:1px solid #e5e5e5;}
+.ccart-content-detail .ccart-content-detail-sub{width:100%;}
+.ccart-content-detail .ccart-content-detail-sub tr th{border-bottom:none;}
+.ccart-content-detail .ccart-content-detail-sub tr td{border-bottom:none;}
+.ccart-content-detail th{font-size:13px; color:#999999; text-align:center;height:46px; border-bottom:1px solid #f2f2f2;}
+.ccart-content-detail tr td{border-bottom:1px solid #f2f2f2;}
+.cooperation-cart.cc-kay .ccart-content-detail tr th {border-bottom:1px solid #eeeeee;}
+.cooperation-cart.cc-kay .ccart-content-detail tr td {border-bottom:1px solid #eeeeee;}
+.cooperation-cart.cc-kay .ccart-content-detail-sub tr th{border-bottom:none;}
+.cooperation-cart.cc-kay .ccart-content-detail-sub tr td{border-bottom:none;}
+.ccart-content-detail td{padding:12px 0;}
+.ccart-content-detail tr.ccart-content-sum td.ccart-content-sum{border-bottom:none;padding:0;}
+.cooperation-cart.cc-kay .ccart-content-detail tr.ccart-content-sum td.ccart-content-sum{border-bottom:none;}
+.ccart-content-detail .ccart-content-detail-sub td{border-right:1px solid #e5e5e5;padding:5px 0;}
+.ccart-content-detail img{width:81px;}
+.ccart-content-detail .cc-pro-logo{border-right:1px solid #f2f2f2;}
+.ccart-content-detail .ccart-content-detail-sub .cc-pro-remove{border:none;}
+.ccart-content-detail .cc-pro-des a{font-size:13px; color:#000000;display:block;text-align:left; padding:0 5px;}
+.ccart-content-detail .cc-pro-des p{font-size:13px; color:#808080; line-height:18px;text-align:left; padding:0 5px;}
+.ccart-content-detail .cc-pro-style{font-size:13px; color:#0095da;}
+.ccart-content-detail .cc-pro-style .cc-typepro{font-size:13px; color:#0095da; cursor:pointer;}
+.ccart-content-detail .cc-pro-price span{display:inline-block; position:relative;font-size:14px; color:#404040;margin-right:5px;}
+.ccart-content-detail .cc-pro-price span i{position:absolute; top:0;right:-5px;font-size:11px;text-decoration:underline;}
+.ccart-content-detail .cc-pro-prices span{display:inline-block; position:relative;font-size:14px; color:#404040;margin-right:5px;}
+
+.ccart-content-detail .cc-pro-prices span i{position:absolute; top:0;right:-5px;font-size:11px;text-decoration:underline;}
+.ccart-content-detail .cc-pro-remove a{display:block; background:url(http://www.mjgroup.com.vn/images_v3/ico-ccart.png) no-repeat; width:11px; height:11px;cursor:pointer;}
+/*
+.ccart-content-detail .cc-pro-remove i{display:block; background:url(http://www.mjgroup.com.vn/images_v3/ico-ccart.png) no-repeat; width:11px; height:11px;cursor:pointer;}
+*/
+.cooperation-cart.cc-kay .ccart-content-detail .cc-pro-logo{background:#f2f2f2;}
+.ccart-content-detail .cc-pro-amo span{ font-size:13px; color:#000; font-weight:700;}
+.ccart-content-detail .cc-pro-ordernum span{font-size:14px; color:#000; font-weight:700;}
+.ccart-content-detail .ccart-logo{display:inline-block; background:url(http://www.mjgroup.com.vn/images_v3/cc-logo.png) no-repeat;width:19px;}
+.ccart-content-detail .ccart-logo.l-zap{background-position:0 0; height:50px;}
+.ccart-content-detail .ccart-logo.l-nhommua{background-position:0 -59px; height:51px;}
+.ccart-content-detail .ccart-logo.l-kay{background-position:0 -115px; height:35px;}
+.ccart-content-detail .ccart-logo.l-hungry{background-position:0 -155px; height:85px;}
+
+/*Drop downlist*/
+.cc-select{position:relative;width:46px;height:19px;}
+.cc-select .cc-selected{position:relative; background:#fff; border:1px solid #e0e0e0;cursor:pointer;}
+.cc-select .cc-selected span{display:block;line-height:17px;font-size:13px; color:#000000; font-weight:700;padding-right:17px; text-align:center;}
+.cc-select .cc-selected i{display:block; background:url(http://www.mjgroup.com.vn/images_v3/ico-ccart.png) no-repeat 0 -15px;width:15px; height:15px; position:absolute; top:1px; right:1px; cursor:pointer;}
+.cc-select .cc-list-select{position:absolute; top:18px; left:0; background:#fff;border:1px solid #e0e0e0;width:44px;max-height:65px; overflow-y:auto;}
+.cc-select .cc-list-select ul li{cursor:pointer;font-size:line-height:17px;font-size:13px; color:#000000;padding-left:10px;text-align:left; }
+.cc-select .cc-list-select ul li:hover{background:#e0e0e0; font-weight:700;}
+/*Zap*/
+.cooperation-cart.cc-zap .ccart-title{margin-left:30px;padding:15px 8px 0 0;height:70px;}
+.cooperation-cart.cc-zap .cc-line-dou{display:block; font-size:0;border-bottom:1px dotted #e4e4e4;border-top:1px dotted #e4e4e4;width:100%;position:absolute; left:0; bottom:0;height:1px;}
+.cooperation-cart.cc-zap .ccart-title h1{font-size:30px; color:#000000; text-transform:uppercase;font-family:NhomMuaMedium,arial;line-height:68px;}
+.cooperation-cart.cc-zap .ccart-continue{background-position:0 0; font-size:16px; font-family:NhomMuaMedium,arial;}
+.cooperation-cart.cc-zap .ccart-btn{background-position:0 0; width:165px; height:50px;}
+.cooperation-cart.cc-zap .ccart-btn:hover{background-position: 0 -64px;}
+.cooperation-cart.cc-zap .ccart-btn:active{background-position: 0 -130px;}
+.cooperation-cart.cc-zap .ccart-btn .cc-btn-txt{background-position: 0 0; width:117px; height:20px;margin-top:12px; }
+.cooperation-cart.cc-zap .ccart-btn:active .cc-btn-txt{margin-top:15px;}
+.cooperation-cart.cc-zap .ccart-title-right{padding-top:8px;}
+.cooperation-cart.cc-zap .cc-line{display:none;}
+
+/*Nhommua*/
+.cooperation-cart.cc-nhommua .ccart-title{background:url(http://www.mjgroup.com.vn/images_v3/cc-bg-detail.png) repeat;height:94px; margin:1px 1px 0 0;padding-right:15px;}
+.cooperation-cart.cc-nhommua .ccart-title-left{padding-left:21px;}
+.cooperation-cart.cc-nhommua .cc-line-dou{display:none;}
+.cooperation-cart.cc-nhommua .cc-line{display:block; font-size:0;border-bottom:1px solid #ffffff;width:100%;position:absolute; left:0; bottom:1px;}
+.cooperation-cart.cc-nhommua .ccart-title h1{font-size:27px; color:#0095da;font-family:NhomMuaMedium,arial;line-height:90px;}
+.cooperation-cart.cc-nhommua .ccart-continue{ font-size:16px;font-family:NhomMuaMedium,arial;}/*02/10*/
+.cooperation-cart.cc-nhommua .ccart-btn{background-position: 0 -183px; width:165px; height:50px;}
+.cooperation-cart.cc-nhommua .ccart-btn:hover{background-position: 0 -247px;}
+.cooperation-cart.cc-nhommua .ccart-btn:active{background-position: 0 -313px;}
+.cooperation-cart.cc-nhommua .ccart-btn .cc-btn-txt{background-position: 0 -25px; width:117px; height:20px;margin-top:12px; }
+.cooperation-cart.cc-nhommua .ccart-btn:active .cc-btn-txt{margin-top:15px;}
+.cooperation-cart.cc-nhommua .ccart-title .ccart-title-right{padding-top:20px;}
+
+/*Kay*/
+.cooperation-cart.cc-kay{border-top:1px solid #d0d0d0; margin-top:10px;}
+.cooperation-cart.cc-kay .ccart-title{height:65px;}
+.cooperation-cart.cc-kay .cc-line-dou{display:none;}
+.cooperation-cart.cc-kay .cc-line{display:block; font-size:0;border-bottom:1px solid #d0d0d0;width:100%;position:absolute; left:0; bottom:0;}
+.cooperation-cart.cc-kay .ccart-title h1{font-size:20px; color:#000000; text-transform:uppercase; line-height:65px;}
+.cooperation-cart.cc-kay .ccart-continue{background-position:0 -56px; font-size:14px; font-family:SFUHelveticaBold,arial;}
+.cooperation-cart.cc-kay .ccart-btn{background-position: 0 -370px; width:152px; height:33px;}
+.cooperation-cart.cc-kay .ccart-btn:hover{background-position: 0 -410px;
+	box-shadow:0 0 5px rgba(0,0,0,0.5);-moz-box-shadow:0 0 5px rgba(0,0,0,0.5);-webit-box-shadow:0 0 5px rgba(0,0,0,0.5);}
+.cooperation-cart.cc-kay .ccart-btn:active{background-position: 0 -450px;}
+.cooperation-cart.cc-kay .ccart-btn .cc-btn-txt{background-position: 0 -50px; width:91px; height:14px;margin-top:9px; }
+.cooperation-cart.cc-kay .ccart-title-right{padding-top:15px;}
+
+/*Total*/
+.cc-total{overflow:hidden;}
+.cc-total-detail{width:438px;background:url(http://www.mjgroup.com.vn/images_v3/cc-bg-w50.png) repeat; border:1px solid #c2c2c2;float:right;}
+.cc-total .cc-items{background:url(http://www.mjgroup.com.vn/images_v3/cc-bg-b50.png) repeat;}
+.cc-total .cc-items .cc-row{border-bottom:1px solid #dedede;padding:5px 0;}
+.cc-total .cc-items .cc-row .cc-subrow{overflow:hidden; padding:5px 0;}
+.cc-total .cc-items .cc-row span{display:block; float:left;text-align:right;}
+.cc-total .cc-items .cc-row .cc-item-name{clear:left;width:69%;font-size:12px; color:#333;}/*02/10*/
+.cc-total .cc-items .cc-row .cc-item-price{width:26%;}/*02/10*/
+.cc-total .cc-items .cc-row .cc-item-price span{display:inline-block; position:relative;font-size:14px; color:#404040;margin-right:5px;float:none;}
+.cc-total .cc-items .cc-row .cc-item-price span i{position:absolute; top:0;right:-5px;font-size:11px;text-decoration:underline;}
+.cc-total .cc-items .cc-row .ccart-logo-gray{display:inline-block; background:url(http://www.mjgroup.com.vn/images_v3/cc-logo-gray.png) no-repeat; height:16px;margin-right:5px;}
+.cc-total .cc-items .cc-row .ccart-logo-gray.cc-zap{background-position:0 0; width:50px;}
+.cc-total .cc-items .cc-row .ccart-logo-gray.cc-nhommua{background-position:0 -23px; width:51px;}
+.cc-total .cc-items .cc-row .ccart-logo-gray.cc-kay{background-position:0 -44px; width:35px;}
+.cc-total .cc-items .cc-row .cc-check{display:inline-block; background:url(http://www.mjgroup.com.vn/images_v3/ico-ccart.png) no-repeat 0 -35px; height:15px; padding-left:21px; cursor:pointer;line-height:15px;}
+.cc-total .cc-items .cc-row .cc-check.cc-checked{background-position:0 -55px;}
+
+.cc-total .cc-item-total{background:#333333;height:45px; overflow:hidden;}
+.cc-total .cc-item-total span{display:block; float:left;text-align:right;line-height:45px;}
+.cc-total .cc-item-total .cc-item-name{clear:left;width:69%;font-size:12px; color:#ffffff;}/*02/10*/
+.cc-total .cc-item-total .cc-item-price{width:26%;}/*02/10*/
+.cc-total .cc-item-total .cc-item-price span{display:inline-block; position:relative;font-size:20px; color:#ffffff;margin-right:5px;float:none;}
+.cc-total .cc-item-total .cc-item-price span i{position:absolute; top:10px;right:-6px;font-size:12px;text-decoration:underline;line-height:15px;}
+.cc-total .cc-total-btn{text-align:right;padding:15px 0 10px;padding-right:20px}/*02/10*/
+.cc-total .cc-total-btn span{display:inline-block;vertical-align:middle;}
+/*Thanks*/
+.thanks.t-nhommua .cc-total .cc-item-total{background:#0095DA;}
+.thanks.t-zap .cc-total .cc-item-total{background:#d51e24;}
+.thanks .cc-total .cc-item-total .cc-item-price{width:26%;}
+.cc-icon-edit{position:relative; float:right; margin-left:5px; top:-5px; width:25px; height:25px; cursor:pointer; background:url(http://www.mjgroup.com.vn/images_v3/ico-edit.png) no-repeat;}
+
+.note-order{padding:25px 0; text-align:center;font:bold 16px arial; color:#CB0424;}
+.cooperation-cart.cc-nhommua .cc-total .cc-item-total{background-color:#0095DA;}
+.divIcon {background: url("http://www.mjgroup.com.vn/images_v3/imgLoadPay.gif") no-repeat scroll 0 0 transparent;height: 32px;left: 48%;position: absolute;top: 48%;width: 32px;z-index: 2011;}

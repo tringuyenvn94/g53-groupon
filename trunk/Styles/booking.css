@@ -1,0 +1,30 @@
+.popup-booking{position:absolute;top:10%;left:35%;z-index:7;font-family:Arial}
+.step1-booking{background:url("http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/booking-tv.jpg");width:602px;height:368px;position:relative;float:left;clear:both}
+.step1-booking h3,.coun_booking h3{font-size:13px;font-weight:bold;text-transform:uppercase;width:564px;height:25px;border-bottom:1px solid #999;margin:auto;padding-top:20px}
+.inner-ppb{width:564px;margin:auto;text-align:center}.inner-ppb span{color:#666;font-size:13px;font-weight:bold;display:block}
+.inner-ppb p{font-size:18px;color:#000;text-transform:uppercase;font-weight:bold;display:block;padding:5px 0 15px 0}.inner-ppb img{margin:auto;display:block;padding-top:45px;padding-bottom:15px}
+.btn-booking{background:url("http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/button/button.png");width:167px;height:50px;margin:auto;display:block;margin-top:17px}
+/*.book-tour{background-position:-524px 0}.book-tour:hover{background-position:-524px -80px;}.book-tour:active{background-position:-524px -159px;}
+.book-room{background-position:-337px -309px}.book-room:hover{background-position:-337px -389px;}.book-room:active{background-position:-337px -468px;}*/
+.book-tour{background-position: -520px 0;}.book-tour:hover{background-position:-520px -80px;}.book-tour:active{background-position:-520px -159px;}
+.book-room{background-position: -333px -309px;}.book-room:hover{background-position:-333px -389px;}.book-room:active{background-position:-333px -468px;}
+.coun_booking{position:relative;width:602px;background:#ffffff;float:left;clear:both;}.info-booking{width:564px;margin:auto;margin-top:15px}
+.sLabel{padding-top:10px;width:136px;font-size:13px;font-weight:bold;color:#666;display:block;}.td_mid{color:#000;width:254px;font-size:14px;position:relative}
+.info-booking table tr{height:48px;font-weight:bold;float:left}.titleDealbk{padding-top:6px;font-size:18px;font-weight:bold;color:#000;overflow: hidden;text-overflow: ellipsis;text-transform: uppercase;white-space: nowrap;width:428px}
+.input-txt {border: 1px solid #999999;border-radius: 5px 5px 5px 5px;box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.5) inset;float: left;padding-bottom: 9px;padding-left: 5px;padding-top: 9px;width: 247px;font-size:14px}
+.input-txt input{border:none;background:transparent;font-weight:bold}.closePopup{cursor:pointer}
+.icoWrite{cursor:pointer;background:url("http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/navi.png");width:16px;height:16px;background-position:-29px -240px;display:block;position:absolute;right:7px;top:11px}
+.icoCalenda{cursor:pointer;background:url("http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/navi.png");background-position:-91px -128px;width:25px;height:25px;display:block;position:absolute;right:5px;top:5px}
+.icoCalenda:hover{background-position:-91px -161px}.spanMid{padding-top:10px;width:136px;font-size:13px;font-weight:bold;display:block;color:#000;text-transform:uppercase;width:254px}
+.row_booking{width:100%;height:38px;float:left;margin-bottom:10px}
+.row_booking span,.row_booking div{float:left}.rightSpan{color:#000;float:right !important;font-size:14px;font-weight:bold;padding-top:9px}
+.right_row{float:right !important;width:174px;height:38px}.right_row .sLabel{width:auto !important}
+.select-sl-popup select {border: 1px solid #999999;border-radius: 5px 5px 5px 5px;box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.5) inset;float: left;padding-bottom: 9px;padding-left: 5px;padding-top: 9px;width: 247px;font-size:14px}
+.input-fix{position: relative !important; width: 60px !important; padding-top: 4px !important; padding-bottom: 4px !important;padding-right:2px !important;font-size:20px !important}
+.note-booking{width:100%;margin-top:20px;padding-bottom:10px;border-top:1px solid #ccc;float:left;clear:both;background:#f2f2f2}
+.row_booking textarea{width:420px;height:75px}.note-booking .btn-booking{float:right;clear:both;margin-right:19px;margin-top:0}
+.note-bot{font-style:italic;font-size:12px;color:#666666;cleaR:both;padding:5px 20px 0 20px;line-height:18px}
+/*12/10 input phone*/
+.step1-booking .inputCode{width:100%;margin:auto;float:left;clear:both;padding-top:10px;color:#000;font-size:18px;padding-bottom:10px}.inner-ppb img{padding-top:30px}.spnLineBooking{width:418px;display:block;height:1px;background:#e5e5e5;clear:both;margin:auto;margin-top:5px;margin-bottom:10px}
+.fn-booking{background-position:-520px -466px;clear:both;margin-top:10px;cursor:pointer}.fn-booking:hover{background-position:-520px -546px}.fn-booking:active{background-position:-520px -626px}
+.step1-booking .inputCode .input-txt{width:282px;margin:auto;float:none;font-size:18px;font-weight:bold;text-align:center}.step1-booking{height:478px}

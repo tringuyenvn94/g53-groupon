@@ -1,0 +1,16 @@
+﻿/* CSS Document */
+.thanks .line{clear:none; float:none; font-size:0; height:0; width:100%; display:block; border-top:1px solid #d0d0d0; margin-top:14px; padding-bottom:18px;}
+.line-sha{ width:503px; height:14px; background:url(http://www.mjgroup.com.vn/images_v3/line-sha.png) no-repeat; display:block; margin:auto;}
+.thanks h3{ font-size:80px; color:#000; font-family:SFUHelveticaBold,arial; text-align:center; margin-top:-8px;}
+.thanks h4{ font-size:20px; line-height:25px; color:#666666; margin:2px 0 10px; text-align:center;}
+.order-number{ border:1px solid #cfcfcf; height:86px; width:572px;text-align:center; margin:22px auto 0 auto; overflow:hidden;}
+.order-number span{ font-size:79px; font-weight:700; color:#000; line-height:86px;}
+.thanks-note{ overflow:hidden; margin-top:-14px; padding-bottom:80px;}
+.thanks-note p{ font-size:17px; color:#333; line-height:25px; text-align:center; margin-top:20px; font-weight:700;}
+.thanks .ccart-content-detail .ccart-content-detail-sub .cc-pro-prices{ border-right:none;}
+/*Nhommua*/
+.thanks.t-nhommua{padding-top:15px;}
+.thanks.t-nhommua h3{color:#0095DA;font-family:NhomMuaMedium,arial;text-shadow:5px  3px rgba(0,0,0,0.2);}
+.thanks.t-zap{padding-top:15px;}
+.thanks.t-zap h3{color:#d51e24;font-family:NhomMuaMedium,arial;text-shadow:5px  3px rgba(0,0,0,0.2);}
+

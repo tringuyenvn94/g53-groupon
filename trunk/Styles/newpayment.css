@@ -1,0 +1,101 @@
+.check{background:url(http://www.mjgroup.com.vn/images_v3/cpayment-check.png) no-repeat; padding-left:25px; display:inline-block; height:21px; cursor:pointer;}
+.check.checked{background-position:0 -50px;}
+.check label{ font-size:13px; font-weight:700; color:#000; line-height:10px;}
+.check label a{ color:#0095da;display:inline-block}
+.check .gift{font-size:14px; color:#0095da; position:relative;}
+.check .gift i{ position:absolute; top:-22px; left:-16px; display:block; background:url(http://www.mjgroup.com.vn/images_v3/gift.png) no-repeat; width:248px; height:72px;}
+.radio{background-image:url(http://www.mjgroup.com.vn/images_v3/cpayment-check.png); background-repeat:no-repeat; padding-left:20px; display:inline-block;cursor:pointer;}
+.radio{background-position:0 -88px}
+.radio.radioed{background-position:0 -132px;}
+.radio label{ line-height:18px; font-size:13px; color:#000; display:inline-block; cursor:pointer;}
+
+
+.payment .line{clear:none; float:none; height:0; width:100%; display:block; border-top:1px solid #d0d0d0; margin-top:14px; padding-bottom:18px;}
+.pay-mod{padding-left:35px; overflow:hidden}/*02/10*/
+.pay-title{ font-size:16px; color:#000;border-bottom: 1px solid #999999;height: 44px;width: 97%;}/*02/10*/
+.pay-title b{font-weight:normal;padding-right:4px;color: #333333;display: block;float: left;font-family: Arial;font-size: 23px;margin-right: 20px;padding-top: 5px;text-transform: uppercase;width: auto;}/*02/10*/
+.pay-title a{color:#0095da; font-weight:700; padding-left:4px;display:inline-block}
+.pay-title a:hover{ text-decoration:underline;}
+.pay-rules{}
+.pay-rules p{ font-size:13px; line-height:22px; color:#333; margin-top:6px;}
+.pay-rules p a{ color:#0095da;display:inline-block}
+.pay-rules p a:hover{ text-decoration:underline;}
+
+
+.form-info{ overflow:hidden; margin-top:30px;}
+.row-info{padding:9px 0;/* display:inline-block; */width:100%; display:block; clear:left; float:left;}
+.row-info .left{ float:left; width:105px; font-size:13px; color:#666; margin-top:7px;font-weight:bold;}
+.row-info .right{ float:left;}
+.row-info .right.noleft{ padding-left:105px;}
+.row-info .input{width:280px; border:1px solid #e0e0e0; font-size:13px; line-height:18px; padding:7px 5px;color:#000;}
+.row-info .select{width:292px; border:1px solid #e0e0e0;font-size:16px; color:#000; padding:4px 0;}
+
+.row-info .textarea{width:280px; border:1px solid #e0e0e0; font-size:13px; line-height:18px; padding:7px 5px; font-size:13px; color:#000; height:78px;}
+.row-info .error{color:#CB0424; font-size:13px; line-height:18px; font-style:italic; display:block; width:290px;}
+.row-info .check label{ font-weight:400;}
+.row-info .check .gift{ font-weight:700;}
+.row-info p{ font-size:13px; line-height:18px; color:#000;}
+.btn-form{ clear:left; display:block;padding-top:20px;}
+.btn-form .btn{ width:110px;}
+.loginviafb{ background:url(http://www.mjgroup.com.vn/images_v3/loginviafb.png) no-repeat; width:161px; height:22px; display:inline-block;}
+
+.pay-home .radio label,.pay-payoo .radio label,.pay-office .radio label,.pay-atm .radio label,.pay-visa .radio label{background-image:url(http://www.mjgroup.com.vn/images_v3/pay-ico.png); background-repeat:no-repeat; }
+.pay-home .radio label{ background-position:0 0; width:198px; height:47px;}
+.pay-payoo .radio label{ background-position:0 -60px; width:264px; height:45px;}
+.pay-office .radio label{ background-position:0 -120px; width:225px; height:43px;}
+.pay-atm .radio label{ background-position:0 -180px; width:203px; height:40px;}
+.pay-visa .radio label{ background-position:0 -240px; width:225px; height:40px;}
+
+.form-method{ padding-left:20px; margin-top:6px; padding-bottom:50px;}/*17.7*/
+
+.pay-home .right .radio label,.pay-payoo .right .radio label,.pay-office .right .radio label,.pay-atm .right .radio label,.pay-visa .right .radio label{ background:none; width:auto; height:auto;}
+.pay-home .right .radio,.pay-payoo .right .radio,.pay-office .right .radio,.pay-atm .right .radio,.pay-visa .right .radio{ background-position:0 -98px; padding-left:15px; display:block; margin-top:4px; padding-bottom:4px;}
+.pay-home .right .radioed,.pay-payoo .right .radioed,.pay-office .right .radioed,.pay-atm .right .radioed,.pay-visa .right .radioed{ background-position:0 -142px;}
+.pay-home,.pay-payoo,.pay-office,.pay-atm,.pay-visa{ margin-top:12px; padding-bottom:12px;float:left;clear:both;}
+
+.btn-pay{margin-top:-10px; float:right; margin-right:258px;}
+.btn-cpayment{display:inline-block; background:url(http://www.mjgroup.com.vn/images_v3/buy_btn.png) no-repeat; width:168px; height:63px; text-align:center; cursor:pointer;}
+.btn-cpayment:hover{background-position:0 -83px;}
+.btn-cpayment:active{background-position:0 -166px;}
+.btn-cpayment .btn-cpayment-txt{display:inline-block; background:url(http://www.mjgroup.com.vn/images_v3/pay-btn-txt.png) no-repeat;cursor:pointer;width:43px; height:18px;margin-top:16px;}
+.btn-cpayment:active .btn-cpayment-txt{margin-top:19px;}
+.btn-cpayment.btn-cpayment-signin .btn-cpayment-txt{background-position:0 -24px; width:115px; height:26px; margin-top:12px;}
+.btn-cpayment.btn-cpayment-signin:active .btn-cpayment-txt{margin-top:15px;}
+.btn-cpayment.btn-cpayment-signup .btn-cpayment-txt{background-position:0 -55px; width:87px; height:22px; margin-top:12px;}
+.btn-cpayment.btn-cpayment-signup:active .btn-cpayment-txt{margin-top:15px;}
+.btn-cpayment.btn-cpayment-change{background-position: 0 0; width:227px;}
+.btn-cpayment.btn-cpayment-change:hover{background-position: 0 -83px;}
+.btn-cpayment.btn-cpayment-change:active{background-position: 0 -165px;}
+.btn-cpayment.btn-cpayment-change .btn-cpayment-txt{background-position:0 -85px; width:169px; height:29px; margin-top:10px;}
+.btn-cpayment.btn-cpayment-change:active .btn-cpayment-txt{margin-top:13px;}
+
+
+
+.lg_red{color:#ff0000; font-size: 16px; line-height:24px; margin-top:4px;}
+.form-info .lost_pwd {color:#109cdc; line-height:18px; font-size:13px; margin-left:290px;} 
+.form-info .lost_pwd:hover{text-decoration: underline;}
+
+.row-info .number,.row-info .street{ float:left;}
+.number .input{ width:30px;}
+.street .left{ width:55px; text-align:center;}
+.street .input{ width:188px;}
+.row-info .info{ font-size:14px; font-weight:700; color:#333;}
+.form-method {padding-bottom:0;}
+
+.button{background-image:url("http://www.mjgroup.com.vn/images_v3/btn/button.png");background-repeat:no-repeat;text-indent:-999px;}
+.login{width:237px;height:63px;background-position:0 -906px}
+.login:hover{background-position:0 -986px}
+.login:active{background-position:0 -1066px}
+.signup{background-position: 0 -667px;width: 237px;height: 63px;}
+.signup:hover{background-position: 0 -747px;}
+.signup:active{background-position:0 -827px}
+.pay-home .row-info .right.noleft {padding-left:30px;}
+.noleft .btn-cpayment.btn-cpayment-change {background:url("http://www.mjgroup.com.vn/images_v3/btn/button.png") no-repeat -420px -777px;width:364px;height:66px;}
+.noleft .btn-cpayment.btn-cpayment-change:hover {background-position:-420px -857px;}
+.noleft .btn-cpayment.btn-cpayment-change:active {background-position:-420px -937px;}
+/*02/10*/
+.side-form{border-left:1px solid #ccc;text-align:center;height:235px;width:315px;float:none;width:49%;margin:auto;/*float:left;*/}.signup{margin:auto}
+.side-form .module-row p{color: #333333;font-size: 20px;margin: 57px 0 20px;text-align: center;}
+@media all and (min-width: 0px) and (max-width: 978px)
+{.side-form{width:265px}}
+/*02/10*/
