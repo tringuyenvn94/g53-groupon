@@ -34,36 +34,35 @@
                                                     <div class="form-info" style="width:440px;float:left"><!--add them width:440px;float:left 02/12-->
                                                         <div class="row-info">
                                                             <div class="right">
-                                                            <span class="error" id="spnViewPolicy"></span>
+                                                            <span class="error" id="spnViewPolicy"><asp:Label ID="Label_TB" runat="server" Text=""></asp:Label></span>
                                                             </div>
                                                         </div>
                         	                            <div class="row-info">
                             	                            <span class="left">Họ tên</span>
-                                                            <div class="right">
-                                	                            <input id="txtViewName" class="input-txt" type="text">
+                                                            <div class="right"><asp:TextBox ID="TextBox_Ho_Ten" runat="server"  class="input-txt"></asp:TextBox>
+                                	                            
                                                                 <span id="spnViewName" class="error"></span>
                                                             </div>
                                                         </div>
                                                         <div class="row-info">
                             	                            <span class="left">Email</span>
-                                                            <div class="right">
-                                	                            <input value="" id="txtViewEmail" class="input-txt" type="email">
+                                                            <div class="right"><asp:TextBox ID="TextBox_Email" runat="server"  class="input-txt"></asp:TextBox>
                                                                 <span id="spnViewEmail" class="error"></span>
                                                             </div>
                                                         </div>
                                                         <div class="row-info">
                             	                            <span class="left">Mật khẩu</span>
-                                                            <div class="right">
-                                	                            <input id="txtViewPass" class="input-txt" type="password">
+                                                            <div class="right"><asp:TextBox ID="TextBox_MK" runat="server" class="input-txt"></asp:TextBox>
+                                	                            
                                 	                            <p id="spnViewPass" class="error"></p>
                                                             </div>
                                                         </div>
                                                         <div class="row-info">
                             	                            <span class="left">Nhập lại MK</span>
                                                             <div class="right">
-                                	                            <input id="txtReViewPass" class="input-txt" type="password">
-                                                                <span id="spnReViewPass" class="error"></span>
-                                                            </div>
+                                	                            <asp:TextBox ID="TextBox_MK0" runat="server" class="input-txt"></asp:TextBox>
+                                	                            
+                                	                            &nbsp;<span id="spnReViewPass" class="error"></span></div>
                                                         </div>
                                                         <div class="row-info">
                             	                            <div class="right" style="padding-left:105px;">
@@ -71,7 +70,7 @@
                                                                     <input name="cbNote" id="cbNote" style="display:none" type="checkbox">
                                                                     <label>Nhận giá tốt mỗi ngày qua email.</label>
                                                                 </span>
-                                                                <span class="btn-form"><a href="javascript:void(0);" id="aRegisterResBuy" class="button signup">Đăng ký</a></span>
+                                                                <span class="btn-form"><asp:Button ID="Button_DK" runat="server" Text=""  class="button signup" OnClick="Button_DK_Click"></asp:Button></span>
                                                             </div>
                                                         </div>
                                                     </div>

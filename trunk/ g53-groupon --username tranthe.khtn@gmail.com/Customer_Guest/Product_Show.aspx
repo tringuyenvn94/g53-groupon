@@ -20,27 +20,27 @@
                                 <section class='deal deal-img coffee-offer'><a title='CALI STEAK HOUSE' href='http://www.nhommua.com/tp-ho-chi-minh/nha-hang/cali-steak-house-7F01030601067C.html' class='aImgDeal'><h1>
                                 <img alt='CALI STEAK HOUSE' src="../Images_Product/san pham ban nhieu nhat copy.png"></h1></a><i class='shadow-offer'></i>
                                 <a class='deliver-icon'><p class='countBuy'>
-                                <b>SL người</b> đã mua</p><p>Giao voucher</p><span class='deli-voucher'></span></a>
+                                <b><asp:Label ID="Label_SL1" runat="server" Text=""></asp:Label> người</b> đã mua</p><p>Giao voucher</p><span class='deli-voucher'></span></a>
                                 <span class='banner-news-deal topdeal-o'></span>
                                     <div class='offer-detail'><p class='meta-offer'><a>
-                                    <span><del>Giá Bán</del><sup><u>đ</u></sup></span>
-                                    <span class='price-offer'>Gia KM<sup><u>đ</u></sup></span></a></p>
+                                    <span><del><asp:Label ID="Label_GB1" runat="server" Text=""></asp:Label></del><sup><u>đ</u></sup></span>
+                                    <span class='price-offer'><asp:Label ID="Label_KM1" runat="server" Text=""></asp:Label><sup><u>đ</u></sup></span></a></p>
                                     <div class='info-offer'><div><a title='CALI STEAK HOUSE' href='http://chiteitsanpham.html'>
-                                    <h1>TÊN SẢN PHẨM</h1></a><a title='CALI STEAK HOUSE' href='http://chiteitsanpham.html' class='moreline-offer'>
-                                    <h2 class='h2 highlight offer-desc tagline'> sơ lược chi tiết sản phẩm</h2></a>
+                                    <h1><asp:Label ID="Label_TenSP1" runat="server" Text=""></asp:Label></h1></a><a title='CALI STEAK HOUSE' href='http://chiteitsanpham.html' class='moreline-offer'>
+                                    <h2 class='h2 highlight offer-desc tagline'><asp:Label ID="Label_CT1" runat="server" Text=""></asp:Label></h2></a>
                                 </div></div></div></section></div>
                                 <div class='gr-deal-o gr-deal-fix'>
                                 <section class='deal deal-img coffee-offer'><a title='CALI STEAK HOUSE' href='http://www.nhommua.com/tp-ho-chi-minh/nha-hang/cali-steak-house-7F01030601067C.html' class='aImgDeal'><h1>
                                 <img alt='CALI STEAK HOUSE' src="../Images_Product/san pham ban nhieu nhat copy.png"></h1></a><i class='shadow-offer'></i>
                                 <a class='deliver-icon'><p class='countBuy'>
-                                <b>SL người</b> đã mua</p><p>Giao voucher</p><span class='deli-voucher'></span></a>
+                                <b><asp:Label ID="Label_SL2" runat="server" Text=""></asp:Label> người</b> đã mua</p><p>Giao voucher</p><span class='deli-voucher'></span></a>
                                 <span class='banner-news-deal topdeal-o'></span>
                                     <div class='offer-detail'><p class='meta-offer'><a>
-                                    <span><del>Giá Bán</del><sup><u>đ</u></sup></span>
-                                    <span class='price-offer'>Gia KM<sup><u>đ</u></sup></span></a></p>
+                                    <span><del><asp:Label ID="Label_GB2" runat="server" Text=""></asp:Label></del><sup><u>đ</u></sup></span>
+                                    <span class='price-offer'<asp:Label ID="Label_KM2" runat="server" Text=""></asp:Label><sup><u>đ</u></sup></span></a></p>
                                     <div class='info-offer'><div><a title='CALI STEAK HOUSE' href='http://chiteitsanpham.html'>
-                                    <h1>TÊN SẢN PHẨM</h1></a><a title='CALI STEAK HOUSE' href='http://chiteitsanpham.html' class='moreline-offer'>
-                                    <h2 class='h2 highlight offer-desc tagline'> sơ lược chi tiết sản phẩm</h2></a>
+                                    <h1><asp:Label ID="Label_TenSP2" runat="server" Text=""></asp:Label></h1></a><a title='CALI STEAK HOUSE' href='http://chiteitsanpham.html' class='moreline-offer'>
+                                    <h2 class='h2 highlight offer-desc tagline'><asp:Label ID="Label_CT2" runat="server" Text=""></asp:Label></h2></a>
                                 </div></div></div></section></div>
                             </div>
                         </div>
@@ -54,27 +54,44 @@
                         <div class='dListDeal'>
                             <div style="display:block" class="dv-banner" id="dBanner"></div>
                             <div id="dListDeal" class="inner-listDeal" style="background:none;margin-bottom:0px;">
-                            	<div class='list-deal-o'>
-                                    <section class='deal deal-img product-offer'><a href='#' title='CHUỘT CẢM ỨNG TẠO NHẠC KỲ DIỆU' class='aImgDeal'>
-                                    <h1><img width='276' height='406' src="../Images_Product/SanPhamMau.png" alt='Tên Sản Phẩm'></h1></a>
-                                    <i class='shadow-list'></i>
-                                    <a class='deliver-icon'><p class='countBuy'><b>SL người</b> đã mua</p>
-                                    <p>Giao sản phẩm</p><span class='deli-freeship'></span></a>
-                                    <div class='offer-detail'><p class='meta-offer'>
-                                    <a><span><del>Giá bán</del><sup><u>đ</u></sup></span>
-                                    <span class='price-offer'>giá KM<sup><u>đ</u></sup></span></a></p>
-                                    <div class='info-offer'>
-                                    <div class='moreline-offer'><a href='abc' title='CHUỘT CẢM ỨNG TẠO NHẠC KỲ DIỆU'><h1>TÊN SẢN PHẨM</h1></a>
-                                    <a href='abc' title='CHUỘT CẢM ỨNG TẠO NHẠC KỲ DIỆU' class='moreline-offer'>
-                                    <h2 class='h2 highlight offer-desc tagline'>Chi tiết sơ lược về sản phẩm</h2></a>
-                                </div>
-                            </div>
-                        </div>
-                    <span class='new-deal'>
-                </span>
-            </section>
-        </div>
-                                <div class='list-deal-o'>
+                            	<asp:DataList ID="DataList_SP" runat="server" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" ForeColor="Black" GridLines="Vertical"  RepeatColumns="4" >
+                                    <AlternatingItemStyle BackColor="White" />
+                                    <FooterStyle BackColor="#CCCC99" />
+                                    <HeaderStyle BackColor="#6B696B" Font-Bold="True" ForeColor="White" />
+                                    <ItemStyle BackColor="#F7F7DE" />
+                                    <ItemTemplate>
+                                        <div class="list-deal-o">
+                                            <section class="deal deal-img product-offer">
+                                                <a class="aImgDeal" href="Product_Detail.aspx?ID=<%# Eval("MaSanPham") %>" title='<%# Eval("TenSanPham") %>'>
+                                                <h1>
+                                                    <img alt="Tên Sản Phẩm" height="406" src="../Images_Product/SanPhamMau.png" width="276" />
+                                                </h1>
+                                                </a><i class="shadow-list"></i><a class="deliver-icon">
+                                                <p class="countBuy">
+                                                    <b><%# Eval("soLuotMua") %>người</b> đã mua</p>
+                                                <p>
+                                                    Giao sản phẩm</p>
+                                                <span class="deli-freeship"></span></a>
+                                                <div class="offer-detail">
+                                                    <p class="meta-offer">
+                                                        <a><span><sup><u><%# Eval("donGiaBan") %>đ</u></sup></span> <span class="price-offer"><sup><u><%# Eval("donGiaKhuyenMai") %>đ</u></sup></span></a></p>
+                                                    <div class="info-offer">
+                                                        <div class="moreline-offer">
+                                                            <a href="#" title='<%# Eval("TenSanPham") %>'>
+                                                            <h1><%# Eval("TenSanPham") %></h1>
+                                                            </a><a class="moreline-offer" href="abc" title='<%# Eval("TenSanPham") %>'>
+                                                            <h2 class="h2 highlight offer-desc tagline"><%# Eval("moTa") %></h2>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <span class="new-deal"></span>
+                                            </section>
+                                        </div>
+                                    </ItemTemplate>
+                                    <SelectedItemStyle BackColor="#CE5D5A" Font-Bold="True" ForeColor="White" />
+                                </asp:DataList>
+                               <!-- <div class='list-deal-o'>
                                 <section class='deal deal-img product-offer'><a href='#' title='CHUỘT CẢM ỨNG TẠO NHẠC KỲ DIỆU' class='aImgDeal'>
                                 <h1><img width='276' height='406' src="../Images_Product/SanPhamMau.png" alt='Tên Sản Phẩm'></h1></a>
                                 <i class='shadow-list'></i>
@@ -133,7 +150,7 @@
                 <span class='new-deal'>
             </span>
         </section>
-    </div>
+    </div>-->
                                 
                             </div>
 							<div style="display:block" class="dv-banner" id="dBanner_Middle"></div>
