@@ -32,9 +32,9 @@
                                     <div class='vote-deal' itemtype='http://schema.org/AggregateRating' itemscope='' itemprop='aggregateRating'><span class='count-vote'><img width='63' height='62' style='margin-top:0px' src='http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/vote.png' alt='5' title='Tuyệt vời'></span>
                                     <p style='float:left;color:#666;padding:0 8px;border-right:1px solid #999'>
                                     <span itemprop='ratingValue'>5.0</span>/5</p>
-                                    <a id='sl-cm-vote' class='sl-cm-vote' href='http://www.nhommua.com/tp-ho-chi-minh/suc-khoe/danh-gia-nha-khoa-dds-7F01050207077C/trang-1.html'>Có <b itemprop='reviewCount'>1</b> lời bình</a>
+                                    <a id='sl-cm-vote' class='sl-cm-vote' href='http://www.nhommua.com/tp-ho-chi-minh/suc-khoe/danh-gia-nha-khoa-dds-7F01050207077C/trang-1.html'>Có <b itemprop='reviewCount'><asp:Label ID="Label_SLLB" runat="server" Text=""></asp:Label></b> lời bình</a>
                                     <a id='sl-vote-978' class='sl-cm-vote sl-vote-978' href='http://www.nhommua.com/tp-ho-chi-minh/suc-khoe/danh-gia-nha-khoa-dds-7F01050207077C/trang-1.html'>
-                                    <b itemprop='reviewCount'>1</b></a></div><a class='deliver-icon'><p>Giao voucher</p><span class='deli-voucher'></span></a></div>
+                                    <b itemprop='reviewCount'>1</b></a></div><a class='deliver-icon'><p><%--<asp:Label ID="Label_LSP" runat="server" Text=""></asp:Label>--%> </p><span class='deli-voucher'></span></a></div>
                                     <div class='title'>
                                     <h1 class='title-dealdt' itemprop='name'><asp:Label ID="Label_TSP" runat="server" Text=""></asp:Label></h1><i class='hori-line'></i>
                                     <div itemprop='description'>
@@ -45,7 +45,7 @@
                                     <div class='save-amo'>
                                     <div class='price'><p class='save-price'><del><asp:Label ID="Label_GB" runat="server" Text=""></asp:Label></del><i><u>đ</u></i>&nbsp;[<asp:Label ID="Label_Ti_Le_Giam" runat="server" Text=""></asp:Label>%]</p><p class='pro-price'>
                                     <span itemprop='price'><asp:Label ID="Label_GKM" runat="server" Text=""></asp:Label></span><span class='priceCurre' itemprop='priceCurrency' content='VND'><u>đ</u></span></p></div>
-                                    <div class='addCart'><a class='btn btnMua' href='javascript:void(0)' id='aAddCart'></a><p style='background:transparent;'></p></div></div>
+                                    <div class='addCart'><asp:Button ID="Button_Mua_Hang" runat="server" Text=""  class='btn btnMua' OnClick="Button_Mua_Hang_Click"></asp:Button><p style='background:transparent;'></p></div></div>
                                     <div class='progress-bar'><span class='run-bar' style='width:78%'></span><span class='end-bar'></span></div>
                                     <link href='http://schema.org/InStock' itemprop='availability'/>
                         </div></div></div>
@@ -167,13 +167,35 @@
                                             <a href='https://plus.google.com/108593809997715530162/?rel=author' style='padding:10px 0 15px 0; display: block;float:right'>nhomMua</a></div>--%>
                                             </div>
                                 </article>
-                                <div id="dBuyBottom" class="bottom-side" style="display:block"><div id='dMap' class='map'></div><div class='intro-pro buy-bot'><div class='amo-price info-bot'><h1><asp:Label ID="Label_TSP2" runat="server" Text=""></asp:Label></h1><i class='line-bot'></i><div class='save-amo'><div class='price'><p class='save-price'><del><asp:Label ID="Label_GB2" runat="server" Text=""></asp:Label></del><i><u>đ</u></i> [-<asp:Label ID="Label_TL2" runat="server" Text=""></asp:Label>%]</p><p class='pro-price'><span><asp:Label ID="Label_GKM2" runat="server" Text=""></asp:Label></span><i><u>đ</u></i></p></div><div class='addCart'><a class='btn btnMua' href='javascript:void(0)' id='aAddCartBT'></a><p>Vẫn còn mua được</p></div></div></div><div class='progress-bar'><span class='run-bar' style='width:78%'></span><span class='end-bar'></span></div></div></div>
+                                <div id="dBuyBottom" class="bottom-side" style="display:block"><div id='dMap' class='map'></div><div class='intro-pro buy-bot'><div class='amo-price info-bot'><h1><asp:Label ID="Label_TSP2" runat="server" Text=""></asp:Label></h1><i class='line-bot'></i><div class='save-amo'><div class='price'><p class='save-price'><del><asp:Label ID="Label_GB2" runat="server" Text=""></asp:Label></del><i><u>đ</u></i> [-<asp:Label ID="Label_TL2" runat="server" Text=""></asp:Label>%]</p><p class='pro-price'><span><asp:Label ID="Label_GKM2" runat="server" Text=""></asp:Label></span><i><u>đ</u></i></p></div><div class='addCart'><asp:Button ID="Button_Mua" runat="server" Text=""  class='btn btnMua' OnClick="Button_Mua_Hang_Click"></asp:Button><p>Vẫn còn mua được</p></div></div></div><div class='progress-bar'><span class='run-bar' style='width:78%'></span><span class='end-bar'></span></div></div></div>
                             </div>
                             <div class='right-side'>
                                 <div class='trading-places'>
                                     <div id="dListCompanyInfo"><h3 style='padding-bottom:5px;'><asp:Label ID="Label_DoiTac" runat="server" Text=""></asp:Label></h3><em><a href='http://www.nhakhoadds.com.vn/' target='_blank'></a></em><br/><i class='line'></i><ul class='points'><li><a href='http://www.diadiem.com/vn/vnMap.aspx?st=SaiGon&h=1&cID=060104020307' name='' class='icon' target='_blank'><i>1</i></a><p><span><asp:Label ID="Label_DiaChiDoiTac" runat="server" Text=""></asp:Label></span> </p><span>Điện thoại:<asp:Label ID="Label_DienThoaiDoiTac" runat="server" Text=""></asp:Label></span><a href='http://www.diadiem.com/vn/vnMap.aspx?st=SaiGon&h=1&cID=060104020307' name='' target='_blank'>Đến điểm này</a> </li></ul></div>
-                                    <div id="dListComment_New" class="newComment"><div id='dQuickCommentHeader' class='aNewCM'style='display:block;'><h3>Lời bình mới nhất</h3></div><ul class='ulListNewCM' id='ulListComment_New'><li><div class='profile-info'><a href='http://www.nhommua.com/tp-ho-chi-minh/Profile/comments.aspx?mid=1345483' class='avatar-user'><img width='44' height='44' alt='ninotran' src='http://image.nhommua.com/Profiles/avatar/20.jpg'></a><p class='user-info vip-dif'><a href='http://www.nhommua.com/tp-ho-chi-minh/Profile/comments.aspx?mid=1345483'>ninotran</a> - <em>Thành viên quen</em><br><span>1:04PM - 04/01/2013</span><br><span class='short-cm' style='width:175px'>
-                                        Lời bình của thành viên</span></p></div><a class='count-cm'>1</a></li></ul><p class='loadMore' style='width:100%'><a href='http://www.nhommua.com/tp-ho-chi-minh/suc-khoe/danh-gia-nha-khoa-dds-7F01050207077C/trang-1.html'><span>Xem thêm</span><span class='spanMore'></span></a></p><div class='write-short'><div class='inner-short'><p class='amo-cm'>Viết lời bình</p><textarea id='txtQuickComment'></textarea><span class='btn-thanhtoan'><a href='javascript:void(0);' style='margin:0' id='aSendQuickCmt'><i>Gửi</i></a></span></div></div></div>
+                                    <div id="dListComment_New" class="newComment">
+                                        <div id='dQuickCommentHeader' class='aNewCM'style='display:block;'>
+                                            <h3>Lời bình mới nhất</h3></div>
+
+                                        <ul class='ulListNewCM' id='ulListComment_New'>
+                                            <li>
+<asp:DataList ID="DataList_LB" runat="server">
+    <ItemTemplate>
+        <div class="profile-info">
+            <a class="avatar-user" href="http://www.nhommua.com/tp-ho-chi-minh/Profile/comments.aspx?mid=1345483">
+            <img alt="ninotran" height="44" src="http://image.nhommua.com/Profiles/avatar/20.jpg" width="44" />
+            </a>
+            <p class="user-info vip-dif">
+                <a href=""><%# Eval("IDNguoiDung") %></a> - <em>Thành viên</em><br /> <span><%# Eval("Ngay") %></span>
+                <br />
+                <span class="short-cm" style="width:175px"><%# Eval("ChiTiet") %></span></p>
+        </div>
+    </ItemTemplate>
+</asp:DataList>
+                                               <%-- <div class='profile-info'><a href='' class='avatar-user'><img width='44' height='44' alt='ninotran' src='http://image.nhommua.com/Profiles/avatar/20.jpg'></a>
+                                                <p class='user-info vip-dif'><a href=''>ninotran</a> - <em>Thành viên quen</em><br><span>1:04PM - 04/01/2013</span>
+                                                    <br><span class='short-cm' style='width:175px'><%# Eval("ChiTiet") %></span></p></div>--%>
+                                                <a class='count-cm'>1</a></li></ul>
+                                        <p class='loadMore' style='width:100%'><a href='http://www.nhommua.com/tp-ho-chi-minh/suc-khoe/danh-gia-nha-khoa-dds-7F01050207077C/trang-1.html'><span>Xem thêm</span><span class='spanMore'></span></a></p><div class='write-short'><div class='inner-short'><p class='amo-cm'>Viết lời bình</p><textarea id='txtQuickComment'></textarea><span class='btn-thanhtoan'><a href='javascript:void(0);' style='margin:0' id='aSendQuickCmt'><i>Gửi</i></a></span></div></div></div>
                                 </div>
                                 <div class='side-deal'>
                                     <ul id="ulListSideDeal" class="list-sidedeal">
@@ -182,23 +204,23 @@
     <ItemTemplate>
         <div class="gr-deal-o gr-side-deal">
             <section class="deal deal-img coffee-offer">
-                <a href="http://www.nhommua.com/tp-ho-chi-minh/san-pham/vi-du-lich-tien-loi-7F01050605027C.html" title="VÍ DU LỊCH TIỆN LỢI">
+                <a href="Product_Detail.aspx?ID=<%# Eval("MaSanPham") %>" title="<%# Eval("TenSanPham") %>">
                 <h1>
-                    <img alt="VÍ DU LỊCH TIỆN LỢI" src="http://www.nhommua.net/Upload/14613/610x377/VI-DU-LICH-TIEN-LOI_2012912162825474.jpg" />
+                    <img alt="<%# Eval("TenSanPham") %>" src="http://www.nhommua.net/Upload/14613/610x377/VI-DU-LICH-TIEN-LOI_2012912162825474.jpg" />
                 </h1>
                 </a><i class="shadow-side"></i><a class="deliver-icon">
                 <p class="countBuy">
-                    <b>42</b> đã mua</p>
+                    <b><%# Eval("soLuotMua") %></b> đã mua</p>
                 <p>
                     Giao sản phẩm</p>
                 <span class="deli-freeship"></span></a>
                 <div class="offer-detail">
                     <p class="meta-offer">
-                        <a><span><del>90.000</del><sup><u>đ</u></sup></span> <span class="price-offer">50.000<sup><u>đ</u></sup></span></a></p>
+                        <a><span><del><%# Eval("donGiaBan") %></del><sup><u>đ</u></sup></span> <span class="price-offer"><%# Eval("donGiaKhuyenMai") %><sup><u>đ</u></sup></span></a></p>
                     <div class="info-offer">
                         <div>
-                            <a href="http://www.nhommua.com/tp-ho-chi-minh/san-pham/vi-du-lich-tien-loi-7F01050605027C.html" title="VÍ DU LỊCH TIỆN LỢI">
-                            <h1>VÍ DU LỊCH TIỆN LỢI</h1>
+                            <a href="Product_Detail.aspx?ID=<%# Eval("MaSanPham") %>" title="<%# Eval("TenSanPham") %>">
+                            <h1><%# Eval("TenSanPham") %></h1>
                             </a>
                         </div>
                     </div>
