@@ -1386,7 +1386,10 @@ body{font-size:13px}a,i{display:block;}sup, sub{line-height:0}a{color:#0095da}
 .side-deal{margin-top:20px;width:100%;float:left;clear:both}.side-deal .list-sidedeal{width:280px;float:right;}.gr-side-deal section {width:279px;height:205px;}.side-deal .list-sidedeal li{margin:0;float:left;margin-bottom:25px;}
 .gr-side-deal section a h1 img{width:277px;height:171px;}.gr-side-deal section .offer-detail{margin:auto;width:254px;height:75px;top:-74px}.gr-side-deal section .info-offer{width:253px;height:52px;margin:0}
 .gr-side-deal .offer-detail .info-offer a h1{font-size:15px !important}.shadow-side{width:267px;height:31px;background-image:url("http://www.mjgroup.com.vn/tp-ho-chi-minh/images_v4/shadow-side.png");margin:auto}
-.gr-side-deal{width:279px;height:205px;margin-right:0}.right-side{width:299px;float:left;position:relative}.moreline-offer a h1{padding-top:8px}.oneline-offer a h1{padding-top:6px}
+.gr-side-deal{width:279px;height:205px;margin-right:0}.right-side{width:299px;float:left;position:relative;
+    top: 130px;
+    left: 0px;
+}.moreline-offer a h1{padding-top:8px}.oneline-offer a h1{padding-top:6px}
 .side-deal .loadMore{width:279px;float:right}.side-deal .loadMore a{background:#e5e5e5}.bottom-side{width:918px;float:left;clear:both;margin-top:20px}
 .map{width:916px;border:1px solid #ccc;border-bottom:none;overflow:hidden;height:252px;}.buy-bot{width:100%;height:122px;border-top:1px solid #ccc;background:#333}.info-bot{width:100%;height:95px;}
 .buy-bot .amo-price{top:0 !important;height:108px !important;border:none}.line-bot{width:1px;height:80px;background:#666;display:block;float:left;margin:13px 0 0 70px}

@@ -17,9 +17,15 @@ public partial class Customer_Guest_Register : System.Web.UI.Page
         tk.userName = tk.email = TextBox_Email.Text;
         tk.passWord = TextBox_MK.Text;
         tk.maLoaiNguoiDung = "KH";
-        if (!Tai_Khoan_BLL.Dang_Ky_Tai_Khoan(tk))
-            Label_TB.Text = "Có lổi xãy ra trong quá trinh đăng ký";
+        if (Tai_Khoan_BLL.Kiem_Tra_Email(TextBox_Email.Text))
+            Label_TB.Text = "Email đã được đăng ký trước. Vui lòng sử dụng Email Khác";
         else
-            Label_TB.Text = "Ok";
+            if (!Tai_Khoan_BLL.Dang_Ky_Tai_Khoan(tk))
+                Label_TB.Text = "Có lổi xãy ra trong quá trinh đăng ký";
+            else
+            {
+                Label_TB.Text = "Ok";
+                Response.Redirect("~/Customer_Guest/Login.aspx?Email=" + TextBox_Email.Text);
+            }
     }
 }

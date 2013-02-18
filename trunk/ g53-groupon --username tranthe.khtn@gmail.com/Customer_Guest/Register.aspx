@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Masterpage/MasterPage_Customer_Guest.master" AutoEventWireup="true" CodeFile="Register.aspx.cs" Inherits="Customer_Guest_Register" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-<link rel="stylesheet" type="text/css" href="../Styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../Styles/reset.css" />
 <link rel="stylesheet" type="text/css" href="../Styles/font.css" />
 <link rel="stylesheet" type="text/css" href="../Styles/main.css" />
 <link rel="stylesheet" type="text/css" href="../Styles/detail.css" />
@@ -13,7 +13,7 @@
 <link rel="stylesheet" type="text/css" href="../Styles/newpayment.css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder_center" Runat="Server">
-<section class='detailDeal'>
+    <section class='detailDeal'>
                     <div class='mod-infoDeal' itemtype="http://schema.org/Product" itemscope="">
                         <span id="spAjaxLoader" class="loadAjax" style="height: 582px;top:15px;display:none;"></span>
                         <div class='mod-descriptions'>
@@ -47,12 +47,16 @@
                                                         <div class="row-info">
                             	                            <span class="left">Email</span>
                                                             <div class="right"><asp:TextBox ID="TextBox_Email" runat="server"  class="input-txt"></asp:TextBox>
-                                                                <span id="spnViewEmail" class="error"></span>
+                                                                <span id="spnViewEmail" class="error">
+                                                                
+                                                                <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox_Email" ErrorMessage="Email không hợp lệ" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+                                                                
+                                                                </span>
                                                             </div>
                                                         </div>
                                                         <div class="row-info">
                             	                            <span class="left">Mật khẩu</span>
-                                                            <div class="right"><asp:TextBox ID="TextBox_MK" runat="server" class="input-txt"></asp:TextBox>
+                                                            <div class="right"><asp:TextBox ID="TextBox_MK" runat="server" class="input-txt" TextMode="Password"></asp:TextBox>
                                 	                            
                                 	                            <p id="spnViewPass" class="error"></p>
                                                             </div>
@@ -60,9 +64,10 @@
                                                         <div class="row-info">
                             	                            <span class="left">Nhập lại MK</span>
                                                             <div class="right">
-                                	                            <asp:TextBox ID="TextBox_MK0" runat="server" class="input-txt"></asp:TextBox>
+                                	                            <asp:TextBox ID="TextBox_MK0" runat="server" class="input-txt" TextMode="Password"></asp:TextBox>
                                 	                            
-                                	                            &nbsp;<span id="spnReViewPass" class="error"></span></div>
+                                	                            
+                                                                </span></div>
                                                         </div>
                                                         <div class="row-info">
                             	                            <div class="right" style="padding-left:105px;">
@@ -78,7 +83,7 @@
                                                     <div class="form-info side-form" style="height:335px">
                         	                            <div class="module-row" sytle="">
                                                             <p style="margin-top:105px">Bạn đã là thành viên? </p>
-                                                            <a href="http://www.nhommua.com/tp-ho-chi-minh/login_buy_mj.aspx" id="aLoginResBuy" style="margin:auto" class="button login"></a>
+                                                            <a href="Login.aspx" id="aLoginResBuy" style="margin:auto" class="button login"></a>
                                                         </div>
                                                     </div>
                                                     <!--end 02/10-->
