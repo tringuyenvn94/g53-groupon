@@ -1,9 +1,14 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Masterpage/MasterPage_Admin_Employee.master" AutoEventWireup="true" CodeFile="Admin_Account_management.aspx.cs" Inherits="Admin_Employee_Admin_Account_management" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <style type="text/css">
+        .auto-style1 {
+            height: 37px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder_center" Runat="Server">
-<h2>Quản Lý Người Dùng</h2> 
+    <h2>Quản Lý Người Dùng</h2> 
                     
                     
         <table id="rounded-corner" summary="2007 Major IT Companies' Profit">
@@ -49,14 +54,14 @@
         </tr> 
         
     	<tr>
-        	<td><input type="checkbox" name="" /></td>
-            <td>ABC</td>
-            <td>abc@gmail.com</td>
-            <td>&nbsp;</td>
-            <td>12/05/2010</td>
+        	<td class="auto-style1"><input type="checkbox" name="" /></td>
+            <td class="auto-style1">ABC</td>
+            <td class="auto-style1">abc@gmail.com</td>
+            <td class="auto-style1"></td>
+            <td class="auto-style1">12/05/2010</td>
 
-            <td><a href="#"><img src="../Images_Masterpage/user_edit.png" alt="" title="" border="0" /></a></td>
-            <td><a href="#" class="ask"><img src="../Images_Masterpage/trash.png" alt="" title="" border="0" /></a></td>
+            <td class="auto-style1"><a href="#"><img src="../Images_Masterpage/user_edit.png" alt="" title="" border="0" /></a></td>
+            <td class="auto-style1"><a href="#" class="ask"><img src="../Images_Masterpage/trash.png" alt="" title="" border="0" /></a></td>
         </tr>
         
     	<tr>
